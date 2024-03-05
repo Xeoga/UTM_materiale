@@ -1,0 +1,110 @@
+{
+  "id": "203f54db-197a-4cc7-8061-d026dc7476b4",
+  "version": "2.0",
+  "name": "TPP Lab 2 Project",
+  "url": "https://www.wolframalpha.com/",
+  "tests": [{
+    "id": "d1ee5815-cac1-4d1d-870d-437c002b5599",
+    "name": "One Specific Two Random",
+    "commands": [{
+      "id": "fdb5a770-d8f2-43ed-9268-6560f6c66f53",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.wolframalpha.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e553a9f5-48a6-4ca1-b9e0-76814ca94ec7",
+      "comment": "",
+      "command": "click",
+      "target": "css=.sc-8081b5c5-0:nth-child(5) > .purpleBorderHoverIcon > .sc-34cb55e4-0",
+      "targets": [
+        ["css=.sc-8081b5c5-0:nth-child(5) > .purpleBorderHoverIcon > .sc-34cb55e4-0", "css:finder"],
+        ["xpath=//div[@id='__next']/div/main/div/section[2]/section/ul/li[5]/a/span", "xpath:idRelative"],
+        ["xpath=//li[5]/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Calculus & Analysis')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "66ed2d73-b48f-48fa-851f-9ca927c5812c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.sc-cwSeag:nth-child(2) > .sc-babe53f0-4:nth-child(1) > .sc-babe53f0-7:nth-child(5) > .sc-6cf6bf5e-3 span",
+      "targets": [
+        ["css=.sc-cwSeag:nth-child(2) > .sc-babe53f0-4:nth-child(1) > .sc-babe53f0-7:nth-child(5) > .sc-6cf6bf5e-3 span", "css:finder"],
+        ["xpath=//div[@id='__next']/div/main/div/section/div/div[2]/section/section[3]/div/a/span", "xpath:idRelative"],
+        ["xpath=//div[2]/section/section[3]/div/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'d/dx x^2 y^4, d/dy x^2 y^4')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f45b7083-690a-411d-9e5b-646413777459",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "abe899b8-1f5b-4511-bbee-7e5b8d751cad",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.\\_3BQD:nth-child(4) > .sc-34cb55e4-0 > span",
+      "targets": [
+        ["css=.\\_3BQD:nth-child(4) > .sc-34cb55e4-0 > span", "css:finder"],
+        ["xpath=//div[@id='__next']/div/main/main/div/div[2]/nav/button[3]/span/span", "xpath:idRelative"],
+        ["xpath=//button[3]/span/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "effce0ed-b868-408f-b204-a2393db990ec",
+      "comment": "",
+      "command": "click",
+      "target": "css=.\\_3BQD:nth-child(4) > .sc-34cb55e4-0 > span",
+      "targets": [
+        ["css=.\\_3BQD:nth-child(4) > .sc-34cb55e4-0 > span", "css:finder"],
+        ["xpath=//div[@id='__next']/div/main/main/div/div[2]/nav/button[3]/span/span", "xpath:idRelative"],
+        ["xpath=//button[3]/span/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "aec9a932-69c9-462a-8f31-9be5f5011c9e",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "069e1423-7e78-4479-896e-65fb3c9b0446",
+      "comment": "",
+      "command": "click",
+      "target": "css=.\\_3BQD:nth-child(4) > .sc-34cb55e4-0 > span",
+      "targets": [
+        ["css=.\\_3BQD:nth-child(4) > .sc-34cb55e4-0 > span", "css:finder"],
+        ["xpath=//div[@id='__next']/div/main/main/div/div[2]/nav/button[3]/span/span", "xpath:idRelative"],
+        ["xpath=//button[3]/span/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "edb89fc3-c57c-47e9-b1aa-ee489caf6167",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.\\_3BQD:nth-child(4) > .sc-34cb55e4-0 > span",
+      "targets": [
+        ["css=.\\_3BQD:nth-child(4) > .sc-34cb55e4-0 > span", "css:finder"],
+        ["xpath=//div[@id='__next']/div/main/main/div/div[2]/nav/button[3]/span/span", "xpath:idRelative"],
+        ["xpath=//button[3]/span/span", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "d526d6f3-d2ec-4b1b-b3d4-2f449a89d7fd",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": ["https://www.wolframalpha.com/"],
+  "plugins": []
+}

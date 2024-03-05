@@ -1,0 +1,23 @@
+Foremost version 1.5.7 by Jesse Kornblum, Kris Kendall, and Nick Mikus
+Audit File
+
+Foremost started at Tue Feb 20 16:30:14 2024
+Invocation: foremost ConsoleApp1.dll 
+Output directory: /home/h1p/UTM/Sem_II/TII/Lab_2/output
+Configuration file: /etc/foremost.conf
+------------------------------------------------------------------
+File: ConsoleApp1.dll
+Start: Tue Feb 20 16:30:14 2024
+Length: 6 KB (6144 bytes)
+ 
+Num	 Name (bs=512)	       Size	 File Offset	 Comment 
+
+0:	00000000.exe 	       6 KB 	          0 	 11/29/2086 03:47:16
+Finish: Tue Feb 20 16:30:14 2024
+
+1 FILES EXTRACTED
+	
+exe:= 1
+------------------------------------------------------------------
+
+Foremost finished at Tue Feb 20 16:30:14 2024
