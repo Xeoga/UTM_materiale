@@ -1,6 +1,5 @@
 import socket
 import threading
-import server_b
 
 class Client:
     def __init__(self, server_host, server_port):

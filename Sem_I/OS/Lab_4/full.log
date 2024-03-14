@@ -1,0 +1,713 @@
+	(++) from command line, (!!) notice, (Information:) informational,
+[     9.420] (Information:) The server relies on udev to provide the list of input devices.
+[     9.420] (Information:) Loader magic: 0x55ba23f78f00
+[     9.420] (Information:) Module ABI versions:
+[     9.422] (Information:) systemd-logind: logind integration requires -keeptty and -keeptty was not provided, disabling logind integration
+[     9.425] (Information:) xfree86: Adding drm device (/dev/dri/card0)
+[     9.425] (Information:) Platform probe for /sys/devices/pci0000:00/0000:00:02.0/drm/card0
+[     9.446] (Information:) LoadModule: "glx"
+[     9.448] (Information:) Loading /usr/lib/xorg/modules/extensions/libglx.so
+[     9.453] (Information:) Module glx: vendor="X.Org Foundation"
+[     9.453] (Information:) LoadModule: "modesetting"
+[     9.454] (Information:) Loading /usr/lib/xorg/modules/drivers/modesetting_drv.so
+[     9.458] (Information:) Module modesetting: vendor="X.Org Foundation"
+[     9.458] (Information:) LoadModule: "fbdev"
+[     9.458] (Information:) Loading /usr/lib/xorg/modules/drivers/fbdev_drv.so
+[     9.460] (Information:) Module fbdev: vendor="X.Org Foundation"
+[     9.460] (Information:) LoadModule: "vesa"
+[     9.460] (Information:) Loading /usr/lib/xorg/modules/drivers/vesa_drv.so
+[     9.463] (Information:) Module vesa: vendor="X.Org Foundation"
+[     9.463] (Information:) modesetting: Driver for Modesetting Kernel Drivers: kms
+[     9.463] (Information:) FBDEV: driver for framebuffer: fbdev
+[     9.463] (Information:) VESA: driver for VESA chipsets: vesa
+[     9.488] (Information:) modeset(0): using drv /dev/dri/card0
+[     9.488] (Information:) Loading sub module "fbdevhw"
+[     9.488] (Information:) LoadModule: "fbdevhw"
+[     9.492] (Information:) Loading /usr/lib/xorg/modules/libfbdevhw.so
+[     9.495] (Information:) Module fbdevhw: vendor="X.Org Foundation"
+[     9.495] (Information:) modeset(0): Creating default Display subsection in Screen section
+[     9.496] (Information:) Loading sub module "glamoregl"
+[     9.496] (Information:) LoadModule: "glamoregl"
+[     9.496] (Information:) Loading /usr/lib/xorg/modules/libglamoregl.so
+[     9.516] (Information:) Module glamoregl: vendor="X.Org Foundation"
+[     9.972] (Information:) modeset(0): glamor X acceleration enabled on Mesa Intel(R) UHD Graphics 600 (GLK 2)
+[     9.972] (Information:) modeset(0): glamor initialized
+[     9.974] (Information:) modeset(0): Output eDP-1 has no monitor section
+[     9.975] (Information:) modeset(0): Output HDMI-1 has no monitor section
+[     9.976] (Information:) modeset(0): Output DP-1 has no monitor section
+[    10.028] (Information:) modeset(0): Output HDMI-2 has no monitor section
+[    10.031] (Information:) modeset(0): EDID for output eDP-1
+[    10.031] (Information:) modeset(0): Manufacturer: BOE  Model: 6b3  Serial#: 0
+[    10.031] (Information:) modeset(0): Year: 2016  Week: 1
+[    10.031] (Information:) modeset(0): EDID Version: 1.4
+[    10.031] (Information:) modeset(0): Digital Display Input
+[    10.031] (Information:) modeset(0): 6 bits per channel
+[    10.031] (Information:) modeset(0): Digital interface is DisplayPort
+[    10.031] (Information:) modeset(0): Indeterminate output size
+[    10.031] (Information:) modeset(0): Gamma: 2.20
+[    10.031] (Information:) modeset(0): No DPMS capabilities specified
+[    10.031] (Information:) modeset(0): Supported color encodings: RGB 4:4:4 
+[    10.031] (Information:) modeset(0): First detailed timing is preferred mode
+[    10.031] (Information:) modeset(0): Preferred mode is native pixel format and refresh rate
+[    10.031] (Information:) modeset(0): redX: 0.589 redY: 0.361   greenX: 0.355 greenY: 0.571
+[    10.031] (Information:) modeset(0): blueX: 0.164 blueY: 0.134   whiteX: 0.312 whiteY: 0.328
+[    10.031] (Information:) modeset(0): Manufacturer's mask: 0
+[    10.031] (Information:) modeset(0): Supported detailed timing:
+[    10.031] (Information:) modeset(0): clock: 141.4 MHz   Image Size:  0 x 0 mm
+[    10.031] (Information:) modeset(0): h_active: 1920  h_sync: 1980  h_sync_end 2012 h_blank_end 2142 h_border: 0
+[    10.031] (Information:) modeset(0): v_active: 1080  v_sync: 1083  v_sync_end 1089 v_blanking: 1100 v_border: 0
+[    10.031] (Information:) modeset(0): Supported detailed timing:
+[    10.031] (Information:) modeset(0): clock: 113.1 MHz   Image Size:  0 x 0 mm
+[    10.031] (Information:) modeset(0): h_active: 1920  h_sync: 1968  h_sync_end 2000 h_blank_end 2142 h_border: 0
+[    10.031] (Information:) modeset(0): v_active: 1080  v_sync: 1083  v_sync_end 1089 v_blanking: 1100 v_border: 0
+[    10.031] (Information:) modeset(0):  BOE CQ
+[    10.031] (Information:) modeset(0):  NV140FHM-N46
+[    10.031] (Information:) modeset(0): EDID (in hex):
+[    10.031] (Information:) modeset(0): 	00ffffffffffff0009e5b30600000000
+[    10.031] (Information:) modeset(0): 	011a01049500007802e110965c5b922a
+[    10.032] (Information:) modeset(0): 	22505400000001010101010101010101
+[    10.032] (Information:) modeset(0): 	0101010101013c3780de703814403c20
+[    10.032] (Information:) modeset(0): 	360000000000001a302c80de70381440
+[    10.032] (Information:) modeset(0): 	3020360000000000001a000000fe0042
+[    10.032] (Information:) modeset(0): 	4f452043510a202020202020000000fe
+[    10.032] (Information:) modeset(0): 	004e5631343046484d2d4e34360a003e
+[    10.032] (Information:) modeset(0): Printing probed modes for output eDP-1
+[    10.032] (Information:) modeset(0): Modeline "1920x1080"x60.0  141.40  1920 1980 2012 2142  1080 1083 1089 1100 +hsync -vsync (66.0 kHz eP)
+[    10.032] (Information:) modeset(0): Modeline "1920x1080"x120.0  356.38  1920 2080 2288 2656  1080 1081 1084 1118 doublescan -hsync +vsync (134.2 kHz d)
+[    10.032] (Information:) modeset(0): Modeline "1920x1080"x119.9  266.50  1920 1944 1960 2000  1080 1081 1084 1111 doublescan +hsync -vsync (133.2 kHz d)
+[    10.032] (Information:) modeset(0): Modeline "1920x1080"x60.0  173.00  1920 2048 2248 2576  1080 1083 1088 1120 -hsync +vsync (67.2 kHz d)
+[    10.032] (Information:) modeset(0): Modeline "1920x1080"x59.9  138.50  1920 1968 2000 2080  1080 1083 1088 1111 +hsync -vsync (66.6 kHz d)
+[    10.032] (Information:) modeset(0): Modeline "1920x1080"x48.0  113.12  1920 1968 2000 2142  1080 1083 1089 1100 +hsync -vsync (52.8 kHz e)
+[    10.032] (Information:) modeset(0): Modeline "1680x1050"x60.0  146.25  1680 1784 1960 2240  1050 1053 1059 1089 -hsync +vsync (65.3 kHz d)
+[    10.032] (Information:) modeset(0): Modeline "1680x1050"x59.9  119.00  1680 1728 1760 1840  1050 1053 1059 1080 +hsync -vsync (64.7 kHz d)
+[    10.032] (Information:) modeset(0): Modeline "1400x1050"x60.0  122.00  1400 1488 1640 1880  1050 1052 1064 1082 +hsync +vsync (64.9 kHz d)
+[    10.032] (Information:) modeset(0): Modeline "1600x900"x120.0  246.00  1600 1728 1900 2200  900 901 904 932 doublescan -hsync +vsync (111.8 kHz d)
+[    10.032] (Information:) modeset(0): Modeline "1600x900"x119.9  186.50  1600 1624 1640 1680  900 901 904 926 doublescan +hsync -vsync (111.0 kHz d)
+[    10.032] (Information:) modeset(0): Modeline "1600x900"x59.9  118.25  1600 1696 1856 2112  900 903 908 934 -hsync +vsync (56.0 kHz d)
+[    10.032] (Information:) modeset(0): Modeline "1600x900"x59.8   97.50  1600 1648 1680 1760  900 903 908 926 +hsync -vsync (55.4 kHz d)
+[    10.032] (Information:) modeset(0): Modeline "1280x1024"x60.0  108.00  1280 1328 1440 1688  1024 1025 1028 1066 +hsync +vsync (64.0 kHz d)
+[    10.032] (Information:) modeset(0): Modeline "1400x900"x60.0  103.50  1400 1480 1624 1848  900 903 913 934 -hsync +vsync (56.0 kHz d)
+[    10.032] (Information:) modeset(0): Modeline "1400x900"x59.9   86.50  1400 1448 1480 1560  900 903 913 926 +hsync -vsync (55.4 kHz d)
+[    10.032] (Information:) modeset(0): Modeline "1280x960"x60.0  108.00  1280 1376 1488 1800  960 961 964 1000 +hsync +vsync (60.0 kHz d)
+[    10.032] (Information:) modeset(0): Modeline "1440x810"x120.0  198.12  1440 1548 1704 1968  810 811 814 839 doublescan -hsync +vsync (100.7 kHz d)
+[    10.032] (Information:) modeset(0): Modeline "1440x810"x119.9  151.88  1440 1464 1480 1520  810 811 814 833 doublescan +hsync -vsync (99.9 kHz d)
+[    10.032] (Information:) modeset(0): Modeline "1368x768"x59.9   85.25  1368 1440 1576 1784  768 771 781 798 -hsync +vsync (47.8 kHz d)
+[    10.032] (Information:) modeset(0): Modeline "1368x768"x59.9   72.25  1368 1416 1448 1528  768 771 781 790 +hsync -vsync (47.3 kHz d)
+[    10.032] (Information:) modeset(0): Modeline "1280x800"x120.0  174.25  1280 1380 1516 1752  800 801 804 829 doublescan -hsync +vsync (99.5 kHz d)
+[    10.032] (Information:) modeset(0): Modeline "1280x800"x119.9  134.25  1280 1304 1320 1360  800 801 804 823 doublescan +hsync -vsync (98.7 kHz d)
+[    10.033] (Information:) modeset(0): Modeline "1280x800"x59.8   83.50  1280 1352 1480 1680  800 803 809 831 -hsync +vsync (49.7 kHz d)
+[    10.033] (Information:) modeset(0): Modeline "1280x800"x59.9   71.00  1280 1328 1360 1440  800 803 809 823 +hsync -vsync (49.3 kHz d)
+[    10.033] (Information:) modeset(0): Modeline "1280x720"x120.0  156.12  1280 1376 1512 1744  720 721 724 746 doublescan -hsync +vsync (89.5 kHz d)
+[    10.033] (Information:) modeset(0): Modeline "1280x720"x120.0  120.75  1280 1304 1320 1360  720 721 724 740 doublescan +hsync -vsync (88.8 kHz d)
+[    10.033] (Information:) modeset(0): Modeline "1280x720"x59.9   74.50  1280 1344 1472 1664  720 723 728 748 -hsync +vsync (44.8 kHz d)
+[    10.033] (Information:) modeset(0): Modeline "1280x720"x59.7   63.75  1280 1328 1360 1440  720 723 728 741 +hsync -vsync (44.3 kHz d)
+[    10.033] (Information:) modeset(0): Modeline "1024x768"x120.1  133.47  1024 1100 1212 1400  768 768 770 794 doublescan -hsync +vsync (95.3 kHz d)
+[    10.033] (Information:) modeset(0): Modeline "1024x768"x60.0   65.00  1024 1048 1184 1344  768 771 777 806 -hsync -vsync (48.4 kHz d)
+[    10.033] (Information:) modeset(0): Modeline "960x720"x120.0  117.00  960 1024 1128 1300  720 720 722 750 doublescan -hsync +vsync (90.0 kHz d)
+[    10.033] (Information:) modeset(0): Modeline "928x696"x120.1  109.15  928 976 1088 1264  696 696 698 719 doublescan -hsync +vsync (86.4 kHz d)
+[    10.033] (Information:) modeset(0): Modeline "896x672"x120.0  102.40  896 960 1060 1224  672 672 674 697 doublescan -hsync +vsync (83.7 kHz d)
+[    10.033] (Information:) modeset(0): Modeline "1024x576"x119.9   98.50  1024 1092 1200 1376  576 577 580 597 doublescan -hsync +vsync (71.6 kHz d)
+[    10.033] (Information:) modeset(0): Modeline "1024x576"x119.9   78.38  1024 1048 1064 1104  576 577 580 592 doublescan +hsync -vsync (71.0 kHz d)
+[    10.033] (Information:) modeset(0): Modeline "1024x576"x59.9   46.50  1024 1064 1160 1296  576 579 584 599 -hsync +vsync (35.9 kHz d)
+[    10.033] (Information:) modeset(0): Modeline "1024x576"x59.8   42.00  1024 1072 1104 1184  576 579 584 593 +hsync -vsync (35.5 kHz d)
+[    10.033] (Information:) modeset(0): Modeline "960x600"x119.9   96.62  960 1028 1128 1296  600 601 604 622 doublescan -hsync +vsync (74.6 kHz d)
+[    10.033] (Information:) modeset(0): Modeline "960x600"x120.0   77.00  960 984 1000 1040  600 601 604 617 doublescan +hsync -vsync (74.0 kHz d)
+[    10.033] (Information:) modeset(0): Modeline "960x540"x119.9   86.50  960 1024 1124 1288  540 541 544 560 doublescan -hsync +vsync (67.2 kHz d)
+[    10.033] (Information:) modeset(0): Modeline "960x540"x120.0   69.25  960 984 1000 1040  540 541 544 555 doublescan +hsync -vsync (66.6 kHz d)
+[    10.033] (Information:) modeset(0): Modeline "960x540"x59.6   40.75  960 992 1088 1216  540 543 548 562 -hsync +vsync (33.5 kHz d)
+[    10.033] (Information:) modeset(0): Modeline "960x540"x59.8   37.25  960 1008 1040 1120  540 543 548 556 +hsync -vsync (33.3 kHz d)
+[    10.033] (Information:) modeset(0): Modeline "800x600"x120.0   81.00  800 832 928 1080  600 600 602 625 doublescan +hsync +vsync (75.0 kHz d)
+[    10.033] (Information:) modeset(0): Modeline "800x600"x60.3   40.00  800 840 968 1056  600 601 605 628 +hsync +vsync (37.9 kHz d)
+[    10.033] (Information:) modeset(0): Modeline "800x600"x56.2   36.00  800 824 896 1024  600 601 603 625 +hsync +vsync (35.2 kHz d)
+[    10.033] (Information:) modeset(0): Modeline "840x525"x120.0   73.12  840 892 980 1120  525 526 529 544 doublescan -hsync +vsync (65.3 kHz d)
+[    10.033] (Information:) modeset(0): Modeline "840x525"x119.8   59.50  840 864 880 920  525 526 529 540 doublescan +hsync -vsync (64.7 kHz d)
+[    10.033] (Information:) modeset(0): Modeline "864x486"x59.9   32.50  864 888 968 1072  486 489 494 506 -hsync +vsync (30.3 kHz d)
+[    10.033] (Information:) modeset(0): Modeline "864x486"x59.6   30.50  864 912 944 1024  486 489 494 500 +hsync -vsync (29.8 kHz d)
+[    10.033] (Information:) modeset(0): Modeline "700x525"x120.0   61.00  700 744 820 940  525 526 532 541 doublescan +hsync +vsync (64.9 kHz d)
+[    10.033] (Information:) modeset(0): Modeline "800x450"x119.9   59.12  800 848 928 1056  450 451 454 467 doublescan -hsync +vsync (56.0 kHz d)
+[    10.033] (Information:) modeset(0): Modeline "800x450"x119.6   48.75  800 824 840 880  450 451 454 463 doublescan +hsync -vsync (55.4 kHz d)
+[    10.033] (Information:) modeset(0): Modeline "640x512"x120.0   54.00  640 664 720 844  512 512 514 533 doublescan +hsync +vsync (64.0 kHz d)
+[    10.033] (Information:) modeset(0): Modeline "700x450"x119.9   51.75  700 740 812 924  450 451 456 467 doublescan -hsync +vsync (56.0 kHz d)
+[    10.033] (Information:) modeset(0): Modeline "700x450"x119.8   43.25  700 724 740 780  450 451 456 463 doublescan +hsync -vsync (55.4 kHz d)
+[    10.033] (Information:) modeset(0): Modeline "640x480"x120.0   54.00  640 688 744 900  480 480 482 500 doublescan +hsync +vsync (60.0 kHz d)
+[    10.033] (Information:) modeset(0): Modeline "640x480"x59.9   25.18  640 656 752 800  480 490 492 525 -hsync -vsync (31.5 kHz d)
+[    10.033] (Information:) modeset(0): Modeline "720x405"x59.5   22.50  720 744 808 896  405 408 413 422 -hsync +vsync (25.1 kHz d)
+[    10.033] (Information:) modeset(0): Modeline "720x405"x59.0   21.75  720 768 800 880  405 408 413 419 +hsync -vsync (24.7 kHz d)
+[    10.033] (Information:) modeset(0): Modeline "684x384"x119.8   42.62  684 720 788 892  384 385 390 399 doublescan -hsync +vsync (47.8 kHz d)
+[    10.033] (Information:) modeset(0): Modeline "684x384"x119.7   36.12  684 708 724 764  384 385 390 395 doublescan +hsync -vsync (47.3 kHz d)
+[    10.033] (Information:) modeset(0): Modeline "640x400"x119.8   41.75  640 676 740 840  400 401 404 415 doublescan -hsync +vsync (49.7 kHz d)
+[    10.033] (Information:) modeset(0): Modeline "640x400"x120.0   35.50  640 664 680 720  400 401 404 411 doublescan +hsync -vsync (49.3 kHz d)
+[    10.034] (Information:) modeset(0): Modeline "640x360"x119.7   37.25  640 672 736 832  360 361 364 374 doublescan -hsync +vsync (44.8 kHz d)
+[    10.034] (Information:) modeset(0): Modeline "640x360"x119.7   31.88  640 664 680 720  360 361 364 370 doublescan +hsync -vsync (44.3 kHz d)
+[    10.034] (Information:) modeset(0): Modeline "640x360"x59.8   18.00  640 664 720 800  360 363 368 376 -hsync +vsync (22.5 kHz d)
+[    10.034] (Information:) modeset(0): Modeline "640x360"x59.3   17.75  640 688 720 800  360 363 368 374 +hsync -vsync (22.2 kHz d)
+[    10.034] (Information:) modeset(0): Modeline "512x384"x120.0   32.50  512 524 592 672  384 385 388 403 doublescan -hsync -vsync (48.4 kHz d)
+[    10.034] (Information:) modeset(0): Modeline "512x288"x120.0   23.25  512 532 580 648  288 289 292 299 doublescan -hsync +vsync (35.9 kHz d)
+[    10.034] (Information:) modeset(0): Modeline "512x288"x119.8   21.00  512 536 552 592  288 289 292 296 doublescan +hsync -vsync (35.5 kHz d)
+[    10.034] (Information:) modeset(0): Modeline "480x270"x119.3   20.38  480 496 544 608  270 271 274 281 doublescan -hsync +vsync (33.5 kHz d)
+[    10.034] (Information:) modeset(0): Modeline "480x270"x119.6   18.62  480 504 520 560  270 271 274 278 doublescan +hsync -vsync (33.3 kHz d)
+[    10.034] (Information:) modeset(0): Modeline "400x300"x120.6   20.00  400 420 484 528  300 300 302 314 doublescan +hsync +vsync (37.9 kHz d)
+[    10.034] (Information:) modeset(0): Modeline "400x300"x112.7   18.00  400 412 448 512  300 300 301 312 doublescan +hsync +vsync (35.2 kHz d)
+[    10.034] (Information:) modeset(0): Modeline "432x243"x119.8   16.25  432 444 484 536  243 244 247 253 doublescan -hsync +vsync (30.3 kHz d)
+[    10.034] (Information:) modeset(0): Modeline "432x243"x119.1   15.25  432 456 472 512  243 244 247 250 doublescan +hsync -vsync (29.8 kHz d)
+[    10.034] (Information:) modeset(0): Modeline "320x240"x120.1   12.59  320 328 376 400  240 245 246 262 doublescan -hsync -vsync (31.5 kHz d)
+[    10.034] (Information:) modeset(0): Modeline "360x202"x119.0   11.25  360 372 404 448  202 204 206 211 doublescan -hsync +vsync (25.1 kHz d)
+[    10.034] (Information:) modeset(0): Modeline "360x202"x118.3   10.88  360 384 400 440  202 204 206 209 doublescan +hsync -vsync (24.7 kHz d)
+[    10.034] (Information:) modeset(0): Modeline "320x180"x119.7    9.00  320 332 360 400  180 181 184 188 doublescan -hsync +vsync (22.5 kHz d)
+[    10.034] (Information:) modeset(0): Modeline "320x180"x118.6    8.88  320 344 360 400  180 181 184 187 doublescan +hsync -vsync (22.2 kHz d)
+[    10.035] (Information:) modeset(0): EDID for output HDMI-1
+[    10.035] (Information:) modeset(0): EDID for output DP-1
+[    10.086] (Information:) modeset(0): EDID for output HDMI-2
+[    10.087] (Information:) modeset(0): Output eDP-1 connected
+[    10.087] (Information:) modeset(0): Output HDMI-1 disconnected
+[    10.087] (Information:) modeset(0): Output DP-1 disconnected
+[    10.087] (Information:) modeset(0): Output HDMI-2 disconnected
+[    10.087] (Information:) modeset(0): Using exact sizes for initial modes
+[    10.087] (Information:) modeset(0): Output eDP-1 using initial mode 1920x1080 +0+0
+[    10.087] (Information:) Loading sub module "fb"
+[    10.087] (Information:) LoadModule: "fb"
+[    10.087] (Information:) Module "fb" already built-in
+[    10.087] (Information:) UnloadModule: "fbdev"
+[    10.088] (Information:) Unloading fbdev
+[    10.088] (Information:) UnloadSubModule: "fbdevhw"
+[    10.088] (Information:) Unloading fbdevhw
+[    10.088] (Information:) UnloadModule: "vesa"
+[    10.088] (Information:) Unloading vesa
+[    10.223] (Information:) modeset(0): Initializing kms color map for depth 24, 8 bpc.
+[    10.224] (Information:) modeset(0): [DRI2] Setup complete
+[    10.224] (Information:) modeset(0): [DRI2]   DRI driver: iris
+[    10.224] (Information:) modeset(0): [DRI2]   VDPAU driver: va_gl
+[    10.224] (Information:) Initializing extension Generic Event Extension
+[    10.225] (Information:) Initializing extension SHAPE
+[    10.225] (Information:) Initializing extension MIT-SHM
+[    10.226] (Information:) Initializing extension XInputExtension
+[    10.227] (Information:) Initializing extension XTEST
+[    10.228] (Information:) Initializing extension BIG-REQUESTS
+[    10.228] (Information:) Initializing extension SYNC
+[    10.229] (Information:) Initializing extension XKEYBOARD
+[    10.229] (Information:) Initializing extension XC-MISC
+[    10.230] (Information:) Initializing extension SECURITY
+[    10.230] (Information:) Initializing extension XFIXES
+[    10.231] (Information:) Initializing extension RENDER
+[    10.231] (Information:) Initializing extension RANDR
+[    10.232] (Information:) Initializing extension COMPOSITE
+[    10.233] (Information:) Initializing extension DAMAGE
+[    10.233] (Information:) Initializing extension MIT-SCREEN-SAVER
+[    10.234] (Information:) Initializing extension DOUBLE-BUFFER
+[    10.234] (Information:) Initializing extension RECORD
+[    10.235] (Information:) Initializing extension DPMS
+[    10.235] (Information:) Initializing extension Present
+[    10.236] (Information:) Initializing extension DRI3
+[    10.236] (Information:) Initializing extension X-Resource
+[    10.237] (Information:) Initializing extension XVideo
+[    10.237] (Information:) Initializing extension XVideo-MotionCompensation
+[    10.237] (Information:) Initializing extension SELinux
+[    10.237] (Information:) SELinux: Disabled on system
+[    10.237] (Information:) Initializing extension GLX
+[    10.256] (Information:) AIGLX: Loaded and initialized iris
+[    10.256] (Information:) GLX: Initialized DRI2 GL provider for screen 0
+[    10.257] (Information:) Initializing extension XFree86-VidModeExtension
+[    10.257] (Information:) Initializing extension XFree86-DGA
+[    10.257] (Information:) Initializing extension XFree86-DRI
+[    10.257] (Information:) Initializing extension DRI2
+[    10.258] (Information:) modeset(0): Damage tracking initialized
+[    10.258] (Information:) modeset(0): Setting screen physical size to 508 x 285
+[    10.392] (Information:) config/udev: Adding input device Video Bus (/dev/input/event5)
+[    10.392] (Information:) LoadModule: "libinput"
+[    10.392] (Information:) Loading /usr/lib/xorg/modules/input/libinput_drv.so
+[    10.400] (Information:) Module libinput: vendor="X.Org Foundation"
+[    10.400] (Information:) Using input driver 'libinput' for 'Video Bus'
+[    10.411] (Information:) event5  - Video Bus: is tagged by udev as: Keyboard
+[    10.411] (Information:) event5  - Video Bus: device is a keyboard
+[    10.411] (Information:) event5  - Video Bus: device removed
+[    10.448] (Information:) XINPUT: Adding extended input device "Video Bus" (type: KEYBOARD, id 6)
+[    10.451] (Information:) event5  - Video Bus: is tagged by udev as: Keyboard
+[    10.451] (Information:) event5  - Video Bus: device is a keyboard
+[    10.454] (Information:) config/udev: Adding input device Lid Switch (/dev/input/event1)
+[    10.454] (Information:) No input driver specified, ignoring this device.
+[    10.454] (Information:) This device may have been added with another device file.
+[    10.455] (Information:) config/udev: Adding input device Power Button (/dev/input/event2)
+[    10.455] (Information:) Using input driver 'libinput' for 'Power Button'
+[    10.458] (Information:) event2  - Power Button: is tagged by udev as: Keyboard
+[    10.458] (Information:) event2  - Power Button: device is a keyboard
+[    10.458] (Information:) event2  - Power Button: device removed
+[    10.472] (Information:) XINPUT: Adding extended input device "Power Button" (type: KEYBOARD, id 7)
+[    10.475] (Information:) event2  - Power Button: is tagged by udev as: Keyboard
+[    10.475] (Information:) event2  - Power Button: device is a keyboard
+[    10.478] (Information:) config/udev: Adding input device HDA Intel PCH Mic (/dev/input/event10)
+[    10.478] (Information:) No input driver specified, ignoring this device.
+[    10.478] (Information:) This device may have been added with another device file.
+[    10.479] (Information:) config/udev: Adding input device HDA Intel PCH Headphone (/dev/input/event11)
+[    10.479] (Information:) No input driver specified, ignoring this device.
+[    10.479] (Information:) This device may have been added with another device file.
+[    10.480] (Information:) config/udev: Adding input device HDA Intel PCH HDMI/DP,pcm=3 (/dev/input/event12)
+[    10.480] (Information:) No input driver specified, ignoring this device.
+[    10.480] (Information:) This device may have been added with another device file.
+[    10.481] (Information:) config/udev: Adding input device HDA Intel PCH HDMI/DP,pcm=7 (/dev/input/event13)
+[    10.481] (Information:) No input driver specified, ignoring this device.
+[    10.481] (Information:) This device may have been added with another device file.
+[    10.482] (Information:) config/udev: Adding input device HDA Intel PCH HDMI/DP,pcm=8 (/dev/input/event14)
+[    10.482] (Information:) No input driver specified, ignoring this device.
+[    10.482] (Information:) This device may have been added with another device file.
+[    10.483] (Information:) config/udev: Adding input device HDA Digital PCBeep (/dev/input/event9)
+[    10.483] (Information:) No input driver specified, ignoring this device.
+[    10.483] (Information:) This device may have been added with another device file.
+[    10.485] (Information:) config/udev: Adding input device 2.4G Mouse (/dev/input/event3)
+[    10.485] (Information:) No input driver specified, ignoring this device.
+[    10.485] (Information:) This device may have been added with another device file.
+[    10.488] (Information:) config/udev: Adding input device 2.4G Mouse (/dev/input/event4)
+[    10.488] (Information:) Using input driver 'libinput' for '2.4G Mouse'
+[    10.551] (Information:) event4  - 2.4G Mouse: is tagged by udev as: Mouse
+[    10.551] (Information:) event4  - 2.4G Mouse: device is a pointer
+[    10.552] (Information:) event4  - 2.4G Mouse: device removed
+[    10.608] (Information:) libinput: 2.4G Mouse: Step value 0 was provided, libinput Fallback acceleration function is used.
+[    10.608] (Information:) libinput: 2.4G Mouse: Step value 0 was provided, libinput Fallback acceleration function is used.
+[    10.608] (Information:) libinput: 2.4G Mouse: Step value 0 was provided, libinput Fallback acceleration function is used.
+[    10.608] (Information:) XINPUT: Adding extended input device "2.4G Mouse" (type: MOUSE, id 8)
+[    10.671] (Information:) event4  - 2.4G Mouse: is tagged by udev as: Mouse
+[    10.672] (Information:) event4  - 2.4G Mouse: device is a pointer
+[    10.675] (Information:) config/udev: Adding input device 2.4G Mouse (/dev/input/mouse0)
+[    10.675] (Information:) No input driver specified, ignoring this device.
+[    10.675] (Information:) This device may have been added with another device file.
+[    10.676] (Information:) config/udev: Adding input device Intel HID events (/dev/input/event6)
+[    10.676] (Information:) Using input driver 'libinput' for 'Intel HID events'
+[    10.678] (Information:) event6  - Intel HID events: is tagged by udev as: Keyboard
+[    10.678] (Information:) event6  - Intel HID events: device is a keyboard
+[    10.679] (Information:) event6  - Intel HID events: device removed
+[    10.712] (Information:) XINPUT: Adding extended input device "Intel HID events" (type: KEYBOARD, id 9)
+[    10.715] (Information:) event6  - Intel HID events: is tagged by udev as: Keyboard
+[    10.715] (Information:) event6  - Intel HID events: device is a keyboard
+[    10.716] (Information:) config/udev: Adding input device Intel HID 5 button array (/dev/input/event7)
+[    10.717] (Information:) Using input driver 'libinput' for 'Intel HID 5 button array'
+[    10.718] (Information:) event7  - Intel HID 5 button array: is tagged by udev as: Keyboard
+[    10.719] (Information:) event7  - Intel HID 5 button array: device is a keyboard
+[    10.719] (Information:) event7  - Intel HID 5 button array: device removed
+[    10.744] (Information:) XINPUT: Adding extended input device "Intel HID 5 button array" (type: KEYBOARD, id 10)
+[    10.747] (Information:) event7  - Intel HID 5 button array: is tagged by udev as: Keyboard
+[    10.747] (Information:) event7  - Intel HID 5 button array: device is a keyboard
+[    10.749] (Information:) config/udev: Adding input device AT Translated Set 2 keyboard (/dev/input/event0)
+[    10.749] (Information:) Using input driver 'libinput' for 'AT Translated Set 2 keyboard'
+[    10.751] (Information:) event0  - AT Translated Set 2 keyboard: is tagged by udev as: Keyboard
+[    10.751] (Information:) event0  - AT Translated Set 2 keyboard: device is a keyboard
+[    10.753] (Information:) event0  - AT Translated Set 2 keyboard: device removed
+[    10.780] (Information:) XINPUT: Adding extended input device "AT Translated Set 2 keyboard" (type: KEYBOARD, id 11)
+[    10.783] (Information:) event0  - AT Translated Set 2 keyboard: is tagged by udev as: Keyboard
+[    10.783] (Information:) event0  - AT Translated Set 2 keyboard: device is a keyboard
+[    10.786] (Information:) config/udev: Adding input device PC Speaker (/dev/input/event8)
+[    10.786] (Information:) No input driver specified, ignoring this device.
+[    10.786] (Information:) This device may have been added with another device file.
+[    22.119] (Information:) modeset(0): EDID vendor "BOE", prod id 1715
+[    22.119] (Information:) modeset(0): Printing DDC gathered Modelines:
+[    22.119] (Information:) modeset(0): Modeline "1920x1080"x0.0  141.40  1920 1980 2012 2142  1080 1083 1089 1100 +hsync -vsync (66.0 kHz eP)
+[    22.119] (Information:) modeset(0): Modeline "1920x1080"x0.0  113.12  1920 1968 2000 2142  1080 1083 1089 1100 +hsync -vsync (52.8 kHz e)
+[    24.468] (Information:) modeset(0): EDID vendor "BOE", prod id 1715
+[    24.468] (Information:) modeset(0): Printing DDC gathered Modelines:
+[    24.468] (Information:) modeset(0): Modeline "1920x1080"x0.0  141.40  1920 1980 2012 2142  1080 1083 1089 1100 +hsync -vsync (66.0 kHz eP)
+[    24.468] (Information:) modeset(0): Modeline "1920x1080"x0.0  113.12  1920 1968 2000 2142  1080 1083 1089 1100 +hsync -vsync (52.8 kHz e)
+[    24.885] (Information:) modeset(0): Allocate new frame buffer 1600x900 stride
+[  2496.940] (Information:) event4  - 2.4G Mouse: device removed
+[  2497.017] (Information:) config/udev: removing device 2.4G Mouse
+[  2497.041] (Information:) UnloadModule: "libinput"
+[  2590.033] (Information:) config/udev: Adding input device 2.4G Mouse (/dev/input/mouse0)
+[  2590.033] (Information:) No input driver specified, ignoring this device.
+[  2590.033] (Information:) This device may have been added with another device file.
+[  2590.127] (Information:) config/udev: Adding input device 2.4G Mouse (/dev/input/event3)
+[  2590.127] (Information:) No input driver specified, ignoring this device.
+[  2590.127] (Information:) This device may have been added with another device file.
+[  2590.129] (Information:) config/udev: Adding input device 2.4G Mouse (/dev/input/event4)
+[  2590.129] (Information:) Using input driver 'libinput' for '2.4G Mouse'
+[  2590.192] (Information:) event4  - 2.4G Mouse: is tagged by udev as: Mouse
+[  2590.193] (Information:) event4  - 2.4G Mouse: device is a pointer
+[  2590.193] (Information:) event4  - 2.4G Mouse: device removed
+[  2590.228] (Information:) libinput: 2.4G Mouse: Step value 0 was provided, libinput Fallback acceleration function is used.
+[  2590.228] (Information:) libinput: 2.4G Mouse: Step value 0 was provided, libinput Fallback acceleration function is used.
+[  2590.228] (Information:) libinput: 2.4G Mouse: Step value 0 was provided, libinput Fallback acceleration function is used.
+[  2590.228] (Information:) XINPUT: Adding extended input device "2.4G Mouse" (type: MOUSE, id 8)
+[  2590.309] (Information:) event4  - 2.4G Mouse: is tagged by udev as: Mouse
+[  2590.310] (Information:) event4  - 2.4G Mouse: device is a pointer
+[  3440.097] (Information:) event4  - 2.4G Mouse: device removed
+[  3440.382] (Information:) config/udev: removing device 2.4G Mouse
+[  3440.423] (Information:) UnloadModule: "libinput"
+[  3441.224] (Information:) config/udev: Adding input device 2.4G Mouse (/dev/input/mouse0)
+[  3441.224] (Information:) No input driver specified, ignoring this device.
+[  3441.224] (Information:) This device may have been added with another device file.
+[  3441.269] (Information:) config/udev: Adding input device SEMICO USB Keyboard Consumer Control (/dev/input/event4)
+[  3441.269] (Information:) Using input driver 'libinput' for 'SEMICO USB Keyboard Consumer Control'
+[  3441.278] (Information:) event4  - SEMICO USB Keyboard Consumer Control: is tagged by udev as: Keyboard
+[  3441.278] (Information:) event4  - SEMICO USB Keyboard Consumer Control: device is a keyboard
+[  3441.279] (Information:) event4  - SEMICO USB Keyboard Consumer Control: device removed
+[  3441.297] (Information:) libinput: SEMICO USB Keyboard Consumer Control: needs a virtual subdevice
+[  3441.297] (Information:) XINPUT: Adding extended input device "SEMICO USB Keyboard Consumer Control" (type: MOUSE, id 8)
+[  3441.318] (Information:) event4  - SEMICO USB Keyboard Consumer Control: is tagged by udev as: Keyboard
+[  3441.319] (Information:) event4  - SEMICO USB Keyboard Consumer Control: device is a keyboard
+[  3441.322] (Information:) Using input driver 'libinput' for 'SEMICO USB Keyboard Consumer Control'
+[  3441.323] (Information:) libinput: SEMICO USB Keyboard Consumer Control: is a virtual subdevice
+[  3441.323] (Information:) XINPUT: Adding extended input device "SEMICO USB Keyboard Consumer Control" (type: KEYBOARD, id 12)
+[  3441.329] (Information:) config/udev: Adding input device SEMICO USB Keyboard (/dev/input/event16)
+[  3441.329] (Information:) Using input driver 'libinput' for 'SEMICO USB Keyboard'
+[  3441.335] (Information:) event16 - SEMICO USB Keyboard: is tagged by udev as: Keyboard
+[  3441.335] (Information:) event16 - SEMICO USB Keyboard: device is a keyboard
+[  3441.336] (Information:) event16 - SEMICO USB Keyboard: device removed
+[  3441.352] (Information:) XINPUT: Adding extended input device "SEMICO USB Keyboard" (type: KEYBOARD, id 13)
+[  3441.359] (Information:) event16 - SEMICO USB Keyboard: is tagged by udev as: Keyboard
+[  3441.360] (Information:) event16 - SEMICO USB Keyboard: device is a keyboard
+[  3441.366] (Information:) config/udev: Adding input device SEMICO USB Keyboard System Control (/dev/input/event15)
+[  3441.366] (Information:) Using input driver 'libinput' for 'SEMICO USB Keyboard System Control'
+[  3441.371] (Information:) event15 - SEMICO USB Keyboard System Control: is tagged by udev as: Keyboard
+[  3441.371] (Information:) event15 - SEMICO USB Keyboard System Control: device is a keyboard
+[  3441.372] (Information:) event15 - SEMICO USB Keyboard System Control: device removed
+[  3441.408] (Information:) XINPUT: Adding extended input device "SEMICO USB Keyboard System Control" (type: KEYBOARD, id 14)
+[  3441.418] (Information:) event15 - SEMICO USB Keyboard System Control: is tagged by udev as: Keyboard
+[  3441.418] (Information:) event15 - SEMICO USB Keyboard System Control: device is a keyboard
+[  3441.423] (Information:) config/udev: Adding input device SEMICO USB Keyboard (/dev/input/event3)
+[  3441.424] (Information:) Using input driver 'libinput' for 'SEMICO USB Keyboard'
+[  3441.429] (Information:) event3  - SEMICO USB Keyboard: is tagged by udev as: Keyboard
+[  3441.430] (Information:) event3  - SEMICO USB Keyboard: device is a keyboard
+[  3441.431] (Information:) event3  - SEMICO USB Keyboard: device removed
+[  3441.448] (Information:) XINPUT: Adding extended input device "SEMICO USB Keyboard" (type: KEYBOARD, id 15)
+[  3441.456] (Information:) event3  - SEMICO USB Keyboard: is tagged by udev as: Keyboard
+[  3441.456] (Information:) event3  - SEMICO USB Keyboard: device is a keyboard
+[  3441.461] (Information:) config/udev: Adding input device 2.4G Mouse (/dev/input/event18)
+[  3441.461] (Information:) Using input driver 'libinput' for '2.4G Mouse'
+[  3441.526] (Information:) event18 - 2.4G Mouse: is tagged by udev as: Mouse
+[  3441.527] (Information:) event18 - 2.4G Mouse: device is a pointer
+[  3441.528] (Information:) event18 - 2.4G Mouse: device removed
+[  3441.580] (Information:) libinput: 2.4G Mouse: Step value 0 was provided, libinput Fallback acceleration function is used.
+[  3441.580] (Information:) libinput: 2.4G Mouse: Step value 0 was provided, libinput Fallback acceleration function is used.
+[  3441.580] (Information:) libinput: 2.4G Mouse: Step value 0 was provided, libinput Fallback acceleration function is used.
+[  3441.580] (Information:) XINPUT: Adding extended input device "2.4G Mouse" (type: MOUSE, id 16)
+[  3441.659] (Information:) event18 - 2.4G Mouse: is tagged by udev as: Mouse
+[  3441.660] (Information:) event18 - 2.4G Mouse: device is a pointer
+[  3441.672] (Information:) config/udev: Adding input device 2.4G Mouse (/dev/input/event17)
+[  3441.672] (Information:) No input driver specified, ignoring this device.
+[  3441.672] (Information:) This device may have been added with another device file.
+[ 16888.340] (Information:) event3  - SEMICO USB Keyboard: device removed
+[ 16888.380] (Information:) config/udev: removing device SEMICO USB Keyboard
+[ 16888.391] (Information:) UnloadModule: "libinput"
+[ 16888.391] (Information:) event4  - SEMICO USB Keyboard Consumer Control: device removed
+[ 16888.412] (Information:) config/udev: removing device SEMICO USB Keyboard Consumer Control
+[ 16888.430] (Information:) UnloadModule: "libinput"
+[ 16888.431] (Information:) config/udev: removing device SEMICO USB Keyboard Consumer Control
+[ 16888.437] (Information:) UnloadModule: "libinput"
+[ 16888.437] (Information:) event15 - SEMICO USB Keyboard System Control: device removed
+[ 16888.457] (Information:) config/udev: removing device SEMICO USB Keyboard System Control
+[ 16888.468] (Information:) UnloadModule: "libinput"
+[ 16888.484] (Information:) event16 - SEMICO USB Keyboard: device removed
+[ 16888.500] (Information:) config/udev: removing device SEMICO USB Keyboard
+[ 16888.512] (Information:) UnloadModule: "libinput"
+[ 16888.556] (Information:) event18 - 2.4G Mouse: device removed
+[ 16888.572] (Information:) config/udev: removing device 2.4G Mouse
+[ 16888.596] (Information:) UnloadModule: "libinput"
+[ 16894.801] (Information:) config/udev: Adding input device 2.4G Mouse (/dev/input/mouse0)
+[ 16894.801] (Information:) No input driver specified, ignoring this device.
+[ 16894.801] (Information:) This device may have been added with another device file.
+[ 16894.910] (Information:) config/udev: Adding input device 2.4G Mouse (/dev/input/event4)
+[ 16894.910] (Information:) Using input driver 'libinput' for '2.4G Mouse'
+[ 16894.977] (Information:) event4  - 2.4G Mouse: is tagged by udev as: Mouse
+[ 16894.977] (Information:) event4  - 2.4G Mouse: device is a pointer
+[ 16894.979] (Information:) event4  - 2.4G Mouse: device removed
+[ 16895.016] (Information:) libinput: 2.4G Mouse: Step value 0 was provided, libinput Fallback acceleration function is used.
+[ 16895.016] (Information:) libinput: 2.4G Mouse: Step value 0 was provided, libinput Fallback acceleration function is used.
+[ 16895.016] (Information:) libinput: 2.4G Mouse: Step value 0 was provided, libinput Fallback acceleration function is used.
+[ 16895.016] (Information:) XINPUT: Adding extended input device "2.4G Mouse" (type: MOUSE, id 8)
+[ 16895.087] (Information:) event4  - 2.4G Mouse: is tagged by udev as: Mouse
+[ 16895.088] (Information:) event4  - 2.4G Mouse: device is a pointer
+[ 16895.092] (Information:) config/udev: Adding input device 2.4G Mouse (/dev/input/event3)
+[ 16895.092] (Information:) No input driver specified, ignoring this device.
+[ 16895.092] (Information:) This device may have been added with another device file.
+[ 32547.842] (Information:) event4  - 2.4G Mouse: device removed
+[ 32548.285] (Information:) config/udev: removing device 2.4G Mouse
+[ 32548.304] (Information:) UnloadModule: "libinput"
+[ 32548.491] (Information:) config/udev: Adding input device 2.4G Mouse (/dev/input/mouse0)
+[ 32548.491] (Information:) No input driver specified, ignoring this device.
+[ 32548.491] (Information:) This device may have been added with another device file.
+[ 32548.547] (Information:) config/udev: Adding input device 2.4G Mouse System Control (/dev/input/event17)
+[ 32548.547] (Information:) Using input driver 'libinput' for '2.4G Mouse System Control'
+[ 32548.556] (Information:) event17 - 2.4G Mouse System Control: is tagged by udev as: Keyboard
+[ 32548.556] (Information:) event17 - 2.4G Mouse System Control: device is a keyboard
+[ 32548.558] (Information:) event17 - 2.4G Mouse System Control: device removed
+[ 32548.580] (Information:) XINPUT: Adding extended input device "2.4G Mouse System Control" (type: KEYBOARD, id 8)
+[ 32548.590] (Information:) event17 - 2.4G Mouse System Control: is tagged by udev as: Keyboard
+[ 32548.590] (Information:) event17 - 2.4G Mouse System Control: device is a keyboard
+[ 32548.596] (Information:) config/udev: Adding input device 2.4G Mouse (/dev/input/event3)
+[ 32548.596] (Information:) Using input driver 'libinput' for '2.4G Mouse'
+[ 32548.602] (Information:) event3  - 2.4G Mouse: is tagged by udev as: Keyboard
+[ 32548.602] (Information:) event3  - 2.4G Mouse: device is a keyboard
+[ 32548.603] (Information:) event3  - 2.4G Mouse: device removed
+[ 32548.644] (Information:) XINPUT: Adding extended input device "2.4G Mouse" (type: KEYBOARD, id 12)
+[ 32548.651] (Information:) event3  - 2.4G Mouse: is tagged by udev as: Keyboard
+[ 32548.651] (Information:) event3  - 2.4G Mouse: device is a keyboard
+[ 32548.656] (Information:) config/udev: Adding input device 2.4G Mouse (/dev/input/event15)
+[ 32548.656] (Information:) Using input driver 'libinput' for '2.4G Mouse'
+[ 32548.661] (Information:) event15 - 2.4G Mouse: is tagged by udev as: Mouse
+[ 32548.661] (Information:) event15 - 2.4G Mouse: device is a pointer
+[ 32548.662] (Information:) event15 - 2.4G Mouse: device removed
+[ 32548.704] (Information:) libinput: 2.4G Mouse: Step value 0 was provided, libinput Fallback acceleration function is used.
+[ 32548.704] (Information:) libinput: 2.4G Mouse: Step value 0 was provided, libinput Fallback acceleration function is used.
+[ 32548.704] (Information:) libinput: 2.4G Mouse: Step value 0 was provided, libinput Fallback acceleration function is used.
+[ 32548.704] (Information:) XINPUT: Adding extended input device "2.4G Mouse" (type: MOUSE, id 13)
+[ 32548.712] (Information:) event15 - 2.4G Mouse: is tagged by udev as: Mouse
+[ 32548.713] (Information:) event15 - 2.4G Mouse: device is a pointer
+[ 32548.716] (Information:) config/udev: Adding input device 2.4G Mouse Consumer Control (/dev/input/event16)
+[ 32548.717] (Information:) Using input driver 'libinput' for '2.4G Mouse Consumer Control'
+[ 32548.721] (Information:) event16 - 2.4G Mouse Consumer Control: is tagged by udev as: Keyboard
+[ 32548.721] (Information:) event16 - 2.4G Mouse Consumer Control: device is a keyboard
+[ 32548.721] (Information:) event16 - 2.4G Mouse Consumer Control: device removed
+[ 32548.744] (Information:) libinput: 2.4G Mouse Consumer Control: needs a virtual subdevice
+[ 32548.744] (Information:) XINPUT: Adding extended input device "2.4G Mouse Consumer Control" (type: MOUSE, id 14)
+[ 32548.751] (Information:) event16 - 2.4G Mouse Consumer Control: is tagged by udev as: Keyboard
+[ 32548.751] (Information:) event16 - 2.4G Mouse Consumer Control: device is a keyboard
+[ 32548.753] (Information:) Using input driver 'libinput' for '2.4G Mouse Consumer Control'
+[ 32548.754] (Information:) libinput: 2.4G Mouse Consumer Control: is a virtual subdevice
+[ 32548.754] (Information:) XINPUT: Adding extended input device "2.4G Mouse Consumer Control" (type: KEYBOARD, id 15)
+[ 32548.758] (Information:) config/udev: Adding input device 2.4G Mouse (/dev/input/event4)
+[ 32548.758] (Information:) No input driver specified, ignoring this device.
+[ 32548.758] (Information:) This device may have been added with another device file.
+[ 32552.768] (Information:) event3  - 2.4G Mouse: device removed
+[ 32552.793] (Information:) config/udev: removing device 2.4G Mouse
+[ 32552.805] (Information:) UnloadModule: "libinput"
+[ 32552.828] (Information:) event15 - 2.4G Mouse: device removed
+[ 32552.844] (Information:) config/udev: removing device 2.4G Mouse
+[ 32552.856] (Information:) UnloadModule: "libinput"
+[ 32552.872] (Information:) event16 - 2.4G Mouse Consumer Control: device removed
+[ 32552.900] (Information:) config/udev: removing device 2.4G Mouse Consumer Control
+[ 32552.904] (Information:) UnloadModule: "libinput"
+[ 32552.904] (Information:) config/udev: removing device 2.4G Mouse Consumer Control
+[ 32552.908] (Information:) UnloadModule: "libinput"
+[ 32552.932] (Information:) event17 - 2.4G Mouse System Control: device removed
+[ 32552.960] (Information:) config/udev: removing device 2.4G Mouse System Control
+[ 32552.963] (Information:) UnloadModule: "libinput"
+[ 32557.489] (Information:) config/udev: Adding input device 2.4G Mouse (/dev/input/mouse0)
+[ 32557.490] (Information:) No input driver specified, ignoring this device.
+[ 32557.490] (Information:) This device may have been added with another device file.
+[ 32557.584] (Information:) config/udev: Adding input device 2.4G Mouse (/dev/input/event3)
+[ 32557.584] (Information:) No input driver specified, ignoring this device.
+[ 32557.584] (Information:) This device may have been added with another device file.
+[ 32557.586] (Information:) config/udev: Adding input device 2.4G Mouse (/dev/input/event4)
+[ 32557.586] (Information:) Using input driver 'libinput' for '2.4G Mouse'
+[ 32557.647] (Information:) event4  - 2.4G Mouse: is tagged by udev as: Mouse
+[ 32557.648] (Information:) event4  - 2.4G Mouse: device is a pointer
+[ 32557.648] (Information:) event4  - 2.4G Mouse: device removed
+[ 32557.684] (Information:) libinput: 2.4G Mouse: Step value 0 was provided, libinput Fallback acceleration function is used.
+[ 32557.684] (Information:) libinput: 2.4G Mouse: Step value 0 was provided, libinput Fallback acceleration function is used.
+[ 32557.684] (Information:) libinput: 2.4G Mouse: Step value 0 was provided, libinput Fallback acceleration function is used.
+[ 32557.684] (Information:) XINPUT: Adding extended input device "2.4G Mouse" (type: MOUSE, id 8)
+[ 32557.758] (Information:) event4  - 2.4G Mouse: is tagged by udev as: Mouse
+[ 32557.759] (Information:) event4  - 2.4G Mouse: device is a pointer
+[ 36551.628] (Information:) event4  - 2.4G Mouse: device removed
+[ 36551.968] (Information:) config/udev: removing device 2.4G Mouse
+[ 36551.996] (Information:) UnloadModule: "libinput"
+[ 36552.737] (Information:) config/udev: Adding input device 2.4G Mouse (/dev/input/mouse0)
+[ 36552.737] (Information:) No input driver specified, ignoring this device.
+[ 36552.737] (Information:) This device may have been added with another device file.
+[ 36552.784] (Information:) config/udev: Adding input device SEMICO USB Keyboard System Control (/dev/input/event15)
+[ 36552.784] (Information:) Using input driver 'libinput' for 'SEMICO USB Keyboard System Control'
+[ 36552.788] (Information:) event15 - SEMICO USB Keyboard System Control: is tagged by udev as: Keyboard
+[ 36552.789] (Information:) event15 - SEMICO USB Keyboard System Control: device is a keyboard
+[ 36552.789] (Information:) event15 - SEMICO USB Keyboard System Control: device removed
+[ 36552.812] (Information:) XINPUT: Adding extended input device "SEMICO USB Keyboard System Control" (type: KEYBOARD, id 8)
+[ 36552.819] (Information:) event15 - SEMICO USB Keyboard System Control: is tagged by udev as: Keyboard
+[ 36552.819] (Information:) event15 - SEMICO USB Keyboard System Control: device is a keyboard
+[ 36552.824] (Information:) config/udev: Adding input device SEMICO USB Keyboard (/dev/input/event16)
+[ 36552.824] (Information:) Using input driver 'libinput' for 'SEMICO USB Keyboard'
+[ 36552.829] (Information:) event16 - SEMICO USB Keyboard: is tagged by udev as: Keyboard
+[ 36552.829] (Information:) event16 - SEMICO USB Keyboard: device is a keyboard
+[ 36552.830] (Information:) event16 - SEMICO USB Keyboard: device removed
+[ 36552.856] (Information:) XINPUT: Adding extended input device "SEMICO USB Keyboard" (type: KEYBOARD, id 12)
+[ 36552.862] (Information:) event16 - SEMICO USB Keyboard: is tagged by udev as: Keyboard
+[ 36552.863] (Information:) event16 - SEMICO USB Keyboard: device is a keyboard
+[ 36552.867] (Information:) config/udev: Adding input device SEMICO USB Keyboard (/dev/input/event3)
+[ 36552.867] (Information:) Using input driver 'libinput' for 'SEMICO USB Keyboard'
+[ 36552.872] (Information:) event3  - SEMICO USB Keyboard: is tagged by udev as: Keyboard
+[ 36552.872] (Information:) event3  - SEMICO USB Keyboard: device is a keyboard
+[ 36552.873] (Information:) event3  - SEMICO USB Keyboard: device removed
+[ 36552.900] (Information:) XINPUT: Adding extended input device "SEMICO USB Keyboard" (type: KEYBOARD, id 13)
+[ 36552.906] (Information:) event3  - SEMICO USB Keyboard: is tagged by udev as: Keyboard
+[ 36552.907] (Information:) event3  - SEMICO USB Keyboard: device is a keyboard
+[ 36552.910] (Information:) config/udev: Adding input device SEMICO USB Keyboard Consumer Control (/dev/input/event4)
+[ 36552.910] (Information:) Using input driver 'libinput' for 'SEMICO USB Keyboard Consumer Control'
+[ 36552.915] (Information:) event4  - SEMICO USB Keyboard Consumer Control: is tagged by udev as: Keyboard
+[ 36552.915] (Information:) event4  - SEMICO USB Keyboard Consumer Control: device is a keyboard
+[ 36552.916] (Information:) event4  - SEMICO USB Keyboard Consumer Control: device removed
+[ 36552.940] (Information:) libinput: SEMICO USB Keyboard Consumer Control: needs a virtual subdevice
+[ 36552.940] (Information:) XINPUT: Adding extended input device "SEMICO USB Keyboard Consumer Control" (type: MOUSE, id 14)
+[ 36552.948] (Information:) event4  - SEMICO USB Keyboard Consumer Control: is tagged by udev as: Keyboard
+[ 36552.948] (Information:) event4  - SEMICO USB Keyboard Consumer Control: device is a keyboard
+[ 36552.950] (Information:) Using input driver 'libinput' for 'SEMICO USB Keyboard Consumer Control'
+[ 36552.950] (Information:) libinput: SEMICO USB Keyboard Consumer Control: is a virtual subdevice
+[ 36552.950] (Information:) XINPUT: Adding extended input device "SEMICO USB Keyboard Consumer Control" (type: KEYBOARD, id 15)
+[ 36552.954] (Information:) config/udev: Adding input device 2.4G Mouse (/dev/input/event17)
+[ 36552.954] (Information:) No input driver specified, ignoring this device.
+[ 36552.954] (Information:) This device may have been added with another device file.
+[ 36552.956] (Information:) config/udev: Adding input device 2.4G Mouse (/dev/input/event18)
+[ 36552.957] (Information:) Using input driver 'libinput' for '2.4G Mouse'
+[ 36553.023] (Information:) event18 - 2.4G Mouse: is tagged by udev as: Mouse
+[ 36553.023] (Information:) event18 - 2.4G Mouse: device is a pointer
+[ 36553.024] (Information:) event18 - 2.4G Mouse: device removed
+[ 36553.072] (Information:) libinput: 2.4G Mouse: Step value 0 was provided, libinput Fallback acceleration function is used.
+[ 36553.072] (Information:) libinput: 2.4G Mouse: Step value 0 was provided, libinput Fallback acceleration function is used.
+[ 36553.072] (Information:) libinput: 2.4G Mouse: Step value 0 was provided, libinput Fallback acceleration function is used.
+[ 36553.072] (Information:) XINPUT: Adding extended input device "2.4G Mouse" (type: MOUSE, id 16)
+[ 36553.151] (Information:) event18 - 2.4G Mouse: is tagged by udev as: Mouse
+[ 36553.152] (Information:) event18 - 2.4G Mouse: device is a pointer
+[ 49281.018] (Information:) event3  - SEMICO USB Keyboard: device removed
+[ 49281.060] (Information:) event4  - SEMICO USB Keyboard Consumer Control: device removed
+[ 49281.112] (Information:) event15 - SEMICO USB Keyboard System Control: device removed
+[ 49281.137] (Information:) config/udev: removing device SEMICO USB Keyboard Consumer Control
+[ 49281.148] (Information:) UnloadModule: "libinput"
+[ 49281.148] (Information:) config/udev: removing device SEMICO USB Keyboard Consumer Control
+[ 49281.166] (Information:) UnloadModule: "libinput"
+[ 49281.166] (Information:) config/udev: removing device SEMICO USB Keyboard
+[ 49281.178] (Information:) UnloadModule: "libinput"
+[ 49281.178] (Information:) event16 - SEMICO USB Keyboard: device removed
+[ 49281.201] (Information:) config/udev: removing device SEMICO USB Keyboard System Control
+[ 49281.218] (Information:) UnloadModule: "libinput"
+[ 49281.220] (Information:) config/udev: removing device SEMICO USB Keyboard
+[ 49281.228] (Information:) UnloadModule: "libinput"
+[ 49281.232] (Information:) event18 - 2.4G Mouse: device removed
+[ 49281.252] (Information:) config/udev: removing device 2.4G Mouse
+[ 49281.266] (Information:) UnloadModule: "libinput"
+[ 49295.536] (Information:) config/udev: Adding input device 2.4G Mouse (/dev/input/mouse0)
+[ 49295.536] (Information:) No input driver specified, ignoring this device.
+[ 49295.536] (Information:) This device may have been added with another device file.
+[ 49295.652] (Information:) config/udev: Adding input device 2.4G Mouse (/dev/input/event4)
+[ 49295.652] (Information:) Using input driver 'libinput' for '2.4G Mouse'
+[ 49295.717] (Information:) event4  - 2.4G Mouse: is tagged by udev as: Mouse
+[ 49295.718] (Information:) event4  - 2.4G Mouse: device is a pointer
+[ 49295.719] (Information:) event4  - 2.4G Mouse: device removed
+[ 49295.752] (Information:) libinput: 2.4G Mouse: Step value 0 was provided, libinput Fallback acceleration function is used.
+[ 49295.752] (Information:) libinput: 2.4G Mouse: Step value 0 was provided, libinput Fallback acceleration function is used.
+[ 49295.752] (Information:) libinput: 2.4G Mouse: Step value 0 was provided, libinput Fallback acceleration function is used.
+[ 49295.752] (Information:) XINPUT: Adding extended input device "2.4G Mouse" (type: MOUSE, id 8)
+[ 49295.824] (Information:) event4  - 2.4G Mouse: is tagged by udev as: Mouse
+[ 49295.825] (Information:) event4  - 2.4G Mouse: device is a pointer
+[ 49295.829] (Information:) config/udev: Adding input device 2.4G Mouse (/dev/input/event3)
+[ 49295.829] (Information:) No input driver specified, ignoring this device.
+[ 49295.829] (Information:) This device may have been added with another device file.
+[ 50713.692] (Information:) event4  - 2.4G Mouse: device removed
+[ 50713.793] (Information:) config/udev: removing device 2.4G Mouse
+[ 50713.835] (Information:) UnloadModule: "libinput"
+[ 50722.349] (Information:) config/udev: Adding input device 2.4G Mouse (/dev/input/mouse0)
+[ 50722.368] (Information:) No input driver specified, ignoring this device.
+[ 50722.368] (Information:) This device may have been added with another device file.
+[ 50722.446] (Information:) config/udev: Adding input device SEMICO USB Keyboard Consumer Control (/dev/input/event16)
+[ 50722.447] (Information:) Using input driver 'libinput' for 'SEMICO USB Keyboard Consumer Control'
+[ 50722.468] (Information:) event16 - SEMICO USB Keyboard Consumer Control: is tagged by udev as: Keyboard
+[ 50722.468] (Information:) event16 - SEMICO USB Keyboard Consumer Control: device is a keyboard
+[ 50722.470] (Information:) event16 - SEMICO USB Keyboard Consumer Control: device removed
+[ 50722.496] (Information:) libinput: SEMICO USB Keyboard Consumer Control: needs a virtual subdevice
+[ 50722.496] (Information:) XINPUT: Adding extended input device "SEMICO USB Keyboard Consumer Control" (type: MOUSE, id 8)
+[ 50722.511] (Information:) event16 - SEMICO USB Keyboard Consumer Control: is tagged by udev as: Keyboard
+[ 50722.511] (Information:) event16 - SEMICO USB Keyboard Consumer Control: device is a keyboard
+[ 50722.514] (Information:) Using input driver 'libinput' for 'SEMICO USB Keyboard Consumer Control'
+[ 50722.514] (Information:) libinput: SEMICO USB Keyboard Consumer Control: is a virtual subdevice
+[ 50722.515] (Information:) XINPUT: Adding extended input device "SEMICO USB Keyboard Consumer Control" (type: KEYBOARD, id 12)
+[ 50722.523] (Information:) config/udev: Adding input device 2.4G Mouse (/dev/input/event4)
+[ 50722.523] (Information:) Using input driver 'libinput' for '2.4G Mouse'
+[ 50722.588] (Information:) event4  - 2.4G Mouse: is tagged by udev as: Mouse
+[ 50722.588] (Information:) event4  - 2.4G Mouse: device is a pointer
+[ 50722.589] (Information:) event4  - 2.4G Mouse: device removed
+[ 50722.636] (Information:) libinput: 2.4G Mouse: Step value 0 was provided, libinput Fallback acceleration function is used.
+[ 50722.636] (Information:) libinput: 2.4G Mouse: Step value 0 was provided, libinput Fallback acceleration function is used.
+[ 50722.636] (Information:) libinput: 2.4G Mouse: Step value 0 was provided, libinput Fallback acceleration function is used.
+[ 50722.636] (Information:) XINPUT: Adding extended input device "2.4G Mouse" (type: MOUSE, id 13)
+[ 50722.704] (Information:) event4  - 2.4G Mouse: is tagged by udev as: Mouse
+[ 50722.704] (Information:) event4  - 2.4G Mouse: device is a pointer
+[ 50722.709] (Information:) config/udev: Adding input device SEMICO USB Keyboard (/dev/input/event18)
+[ 50722.709] (Information:) Using input driver 'libinput' for 'SEMICO USB Keyboard'
+[ 50722.714] (Information:) event18 - SEMICO USB Keyboard: is tagged by udev as: Keyboard
+[ 50722.714] (Information:) event18 - SEMICO USB Keyboard: device is a keyboard
+[ 50722.715] (Information:) event18 - SEMICO USB Keyboard: device removed
+[ 50722.736] (Information:) XINPUT: Adding extended input device "SEMICO USB Keyboard" (type: KEYBOARD, id 14)
+[ 50722.743] (Information:) event18 - SEMICO USB Keyboard: is tagged by udev as: Keyboard
+[ 50722.743] (Information:) event18 - SEMICO USB Keyboard: device is a keyboard
+[ 50722.749] (Information:) config/udev: Adding input device SEMICO USB Keyboard System Control (/dev/input/event17)
+[ 50722.749] (Information:) Using input driver 'libinput' for 'SEMICO USB Keyboard System Control'
+[ 50722.754] (Information:) event17 - SEMICO USB Keyboard System Control: is tagged by udev as: Keyboard
+[ 50722.754] (Information:) event17 - SEMICO USB Keyboard System Control: device is a keyboard
+[ 50722.755] (Information:) event17 - SEMICO USB Keyboard System Control: device removed
+[ 50722.776] (Information:) XINPUT: Adding extended input device "SEMICO USB Keyboard System Control" (type: KEYBOARD, id 15)
+[ 50722.782] (Information:) event17 - SEMICO USB Keyboard System Control: is tagged by udev as: Keyboard
+[ 50722.782] (Information:) event17 - SEMICO USB Keyboard System Control: device is a keyboard
+[ 50722.786] (Information:) config/udev: Adding input device 2.4G Mouse (/dev/input/event3)
+[ 50722.786] (Information:) No input driver specified, ignoring this device.
+[ 50722.786] (Information:) This device may have been added with another device file.
+[ 50722.788] (Information:) config/udev: Adding input device SEMICO USB Keyboard (/dev/input/event15)
+[ 50722.789] (Information:) Using input driver 'libinput' for 'SEMICO USB Keyboard'
+[ 50722.793] (Information:) event15 - SEMICO USB Keyboard: is tagged by udev as: Keyboard
+[ 50722.794] (Information:) event15 - SEMICO USB Keyboard: device is a keyboard
+[ 50722.794] (Information:) event15 - SEMICO USB Keyboard: device removed
+[ 50722.820] (Information:) XINPUT: Adding extended input device "SEMICO USB Keyboard" (type: KEYBOARD, id 16)
+[ 50722.826] (Information:) event15 - SEMICO USB Keyboard: is tagged by udev as: Keyboard
+[ 50722.826] (Information:) event15 - SEMICO USB Keyboard: device is a keyboard
+[ 56923.244] (Information:) event4  - 2.4G Mouse: device removed
+[ 56923.260] (Information:) config/udev: removing device 2.4G Mouse
+[ 56923.286] (Information:) UnloadModule: "libinput"
+[ 56924.324] (Information:) event15 - SEMICO USB Keyboard: device removed
+[ 56924.352] (Information:) config/udev: removing device SEMICO USB Keyboard
+[ 56924.361] (Information:) UnloadModule: "libinput"
+[ 56924.372] (Information:) event16 - SEMICO USB Keyboard Consumer Control: device removed
+[ 56924.400] (Information:) config/udev: removing device SEMICO USB Keyboard Consumer Control
+[ 56924.411] (Information:) UnloadModule: "libinput"
+[ 56924.411] (Information:) config/udev: removing device SEMICO USB Keyboard Consumer Control
+[ 56924.417] (Information:) UnloadModule: "libinput"
+[ 56924.420] (Information:) event17 - SEMICO USB Keyboard System Control: device removed
+[ 56924.440] (Information:) config/udev: removing device SEMICO USB Keyboard System Control
+[ 56924.446] (Information:) UnloadModule: "libinput"
+[ 56924.504] (Information:) event18 - SEMICO USB Keyboard: device removed
+[ 56924.528] (Information:) config/udev: removing device SEMICO USB Keyboard
+[ 56924.533] (Information:) UnloadModule: "libinput"
+[ 56928.614] (Information:) config/udev: Adding input device 2.4G Mouse (/dev/input/mouse0)
+[ 56928.614] (Information:) No input driver specified, ignoring this device.
+[ 56928.615] (Information:) This device may have been added with another device file.
+[ 56928.708] (Information:) config/udev: Adding input device 2.4G Mouse (/dev/input/event4)
+[ 56928.708] (Information:) Using input driver 'libinput' for '2.4G Mouse'
+[ 56928.773] (Information:) event4  - 2.4G Mouse: is tagged by udev as: Mouse
+[ 56928.773] (Information:) event4  - 2.4G Mouse: device is a pointer
+[ 56928.774] (Information:) event4  - 2.4G Mouse: device removed
+[ 56928.812] (Information:) libinput: 2.4G Mouse: Step value 0 was provided, libinput Fallback acceleration function is used.
+[ 56928.812] (Information:) libinput: 2.4G Mouse: Step value 0 was provided, libinput Fallback acceleration function is used.
+[ 56928.812] (Information:) libinput: 2.4G Mouse: Step value 0 was provided, libinput Fallback acceleration function is used.
+[ 56928.812] (Information:) XINPUT: Adding extended input device "2.4G Mouse" (type: MOUSE, id 8)
+[ 56928.890] (Information:) event4  - 2.4G Mouse: is tagged by udev as: Mouse
+[ 56928.891] (Information:) event4  - 2.4G Mouse: device is a pointer
+[ 56928.902] (Information:) config/udev: Adding input device 2.4G Mouse (/dev/input/event3)
+[ 56928.902] (Information:) No input driver specified, ignoring this device.
+[ 56928.902] (Information:) This device may have been added with another device file.
+	(Warning:) warning, (EE) error, (NI) not implemented, (??) unknown.
+[     9.416] (Warning:) The directory "/usr/share/fonts/X11/cyrillic" does not exist.
+[     9.416] (Warning:) The directory "/usr/share/fonts/X11/100dpi/" does not exist.
+[     9.416] (Warning:) The directory "/usr/share/fonts/X11/75dpi/" does not exist.
+[     9.420] (Warning:) The directory "/usr/share/fonts/X11/100dpi" does not exist.
+[     9.420] (Warning:) The directory "/usr/share/fonts/X11/75dpi" does not exist.
+[     9.488] (Warning:) Falling back to old probe method for fbdev
+[  3441.323] (Warning:) Option "xkb_variant" requires a string value
+[  3441.323] (Warning:) Option "xkb_options" requires a string value
+[  3441.352] (Warning:) Option "xkb_variant" requires a string value
+[  3441.352] (Warning:) Option "xkb_options" requires a string value
+[  3441.408] (Warning:) Option "xkb_variant" requires a string value
+[  3441.408] (Warning:) Option "xkb_options" requires a string value
+[  3441.448] (Warning:) Option "xkb_variant" requires a string value
+[  3441.448] (Warning:) Option "xkb_options" requires a string value
+[ 32548.581] (Warning:) Option "xkb_variant" requires a string value
+[ 32548.581] (Warning:) Option "xkb_options" requires a string value
+[ 32548.644] (Warning:) Option "xkb_variant" requires a string value
+[ 32548.644] (Warning:) Option "xkb_options" requires a string value
+[ 32548.754] (Warning:) Option "xkb_variant" requires a string value
+[ 32548.754] (Warning:) Option "xkb_options" requires a string value
+[ 36552.812] (Warning:) Option "xkb_variant" requires a string value
+[ 36552.812] (Warning:) Option "xkb_options" requires a string value
+[ 36552.856] (Warning:) Option "xkb_variant" requires a string value
+[ 36552.856] (Warning:) Option "xkb_options" requires a string value
+[ 36552.900] (Warning:) Option "xkb_variant" requires a string value
+[ 36552.900] (Warning:) Option "xkb_options" requires a string value
+[ 36552.950] (Warning:) Option "xkb_variant" requires a string value
+[ 36552.950] (Warning:) Option "xkb_options" requires a string value
+[ 50722.515] (Warning:) Option "xkb_variant" requires a string value
+[ 50722.515] (Warning:) Option "xkb_options" requires a string value
+[ 50722.736] (Warning:) Option "xkb_variant" requires a string value
+[ 50722.736] (Warning:) Option "xkb_options" requires a string value
+[ 50722.776] (Warning:) Option "xkb_variant" requires a string value
+[ 50722.776] (Warning:) Option "xkb_options" requires a string value
+[ 50722.820] (Warning:) Option "xkb_variant" requires a string value
+[ 50722.820] (Warning:) Option "xkb_options" requires a string value

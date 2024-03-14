@@ -1,0 +1,10 @@
+select cod_grupa from (
+select cod_grupa, count(distinct id_student) as c
+from studenti_reusita
+join grupe g on g.id_grupa = studenti_reusita.id_grupa
+
+group by cod_grupa, id_student) tab
+
+group by cod_grupa
+
+having count(c) > 10;

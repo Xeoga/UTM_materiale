@@ -1,0 +1,167 @@
+UPDATE profesori
+SET adresa_postala_profesor = 'mun. Chisinau'
+WHERE adresa_postala_profesor IS NULL;
+
+-- Update rows with null Cod_Grupa
+UPDATE grupe
+SET cod_grupa = 'XX000'
+WHERE cod_grupa IS NULL;
+
+-- Alter column to not allow null values
+ALTER TABLE grupe
+ALTER COLUMN cod_grupa SET NOT NULL;
+
+-- Add a unique constraint on Cod_Grupa
+ALTER TABLE grupe
+ADD CONSTRAINT unique_cod_grupa UNIQUE (cod_grupa);
+
+ALTER TABLE grupe
+ADD COLUMN Sef_grupa INT,
+ADD COLUMN Prof_Indrumator INT;
+
+
+DO $$ 
+DECLARE
+    rec_grupa RECORD;
+BEGIN
+    FOR rec_grupa IN (SELECT DISTINCT id_grupa FROM studenti_reusita)
+    LOOP
+        -- Update Sef_grupa
+        UPDATE grupe
+        SET Sef_grupa = (
+            SELECT id_student
+            FROM (
+                SELECT id_student, ROW_NUMBER() OVER (ORDER BY AVG(CAST(nota AS FLOAT)) DESC) AS rnk
+                FROM studenti_reusita
+                WHERE id_grupa = rec_grupa.id_grupa
+                GROUP BY id_student
+            ) ranked_students
+            WHERE rnk = 1
+            LIMIT 1
+        )
+        WHERE grupe.id_grupa = rec_grupa.id_grupa;
+
+        -- Update Prof_Indrumator
+        UPDATE grupe
+        SET Prof_Indrumator = (
+            SELECT Id_Profesor
+            FROM (
+                SELECT Id_Profesor, COUNT(DISTINCT id_disciplina) AS num_disciplines
+                FROM studenti_reusita
+                WHERE id_grupa = rec_grupa.id_grupa
+                GROUP BY Id_Profesor
+                ORDER BY num_disciplines DESC, Id_Profesor ASC
+            ) ranked_professors
+            LIMIT 1
+        )
+        WHERE grupe.id_grupa = rec_grupa.id_grupa;
+    END LOOP;
+END $$;
+
+
+UPDATE studenti_reusita
+SET nota = nota + 1
+WHERE EXISTS (
+    SELECT id_student
+    FROM studenti_reusita sr
+    JOIN grupe g ON g.id_grupa = sr.id_grupa
+)
+AND nota < 10;
+
+6.	-- Create the profesori_new table
+7.	CREATE TABLE profesori_new (
+8.	    Id_Profesor INT PRIMARY KEY,
+9.	    Nume_Profesor VARCHAR(255),
+10.	    Prenume_Profesor VARCHAR(255),
+11.	    Localitate VARCHAR(255) DEFAULT 'mun. Chisinau',
+12.	    Adresa_1 VARCHAR(255),
+13.	    Adresa_2 VARCHAR(255)
+14.	);
+15.	
+16.	-- Insert data into profesori_new from the existing profesori table
+17.	INSERT INTO profesori_new (Id_Profesor, Nume_Profesor, Prenume_Profesor, Localitate, Adresa_1, Adresa_2)
+18.	SELECT
+19.	    Id_Profesor,
+20.	    Nume_Profesor,
+21.	    Prenume_Profesor,
+22.	    SPLIT_PART(Adresa_Postala_Profesor, ',', 1) AS Localitate,
+23.	    SPLIT_PART(SPLIT_PART(Adresa_Postala_Profesor, ', ', 2), ', ', 1) AS Adresa_1,
+24.	    SPLIT_PART(Adresa_Postala_Profesor, ', ', -1) AS Adresa_2
+25.	FROM profesori;
+
+-- Create the table orarul
+CREATE TABLE orarul (
+    Id_Disciplina INT NOT NULL,
+    Id_Profesor INT,
+    Id_Grupa SMALLINT,
+    Zi CHAR(2),
+    Ora TIME,
+    Auditoriu INT,
+    Bloc CHAR(1) NOT NULL DEFAULT 'B',
+    PRIMARY KEY (Id_Grupa, Zi, Ora, Auditoriu)
+);
+
+-- Insert values into orarul
+INSERT INTO orarul VALUES (107, 101, 1, 'Lu', '08:00', 202, 'B');
+INSERT INTO orarul VALUES (108, 101, 1, 'Lu', '11:30', 501, 'B');
+INSERT INTO orarul VALUES (109, 117, 1, 'Lu', '13:00', 501, 'B');
+
+
+-- Insert into orarul for 'Structuri de date si algoritmi' at 08:00
+INSERT INTO orarul (Id_Disciplina, Id_Profesor, Id_Grupa, Zi, Ora, Auditoriu, Bloc)
+SELECT DISTINCT 
+    d.Id_Disciplina,
+    p.Id_Profesor,
+    g.Id_Grupa,
+    'Lu' as Zi,
+    '08:00'::time as Ora,
+    200 as Auditoriu,
+    'B' as Bloc
+FROM 
+    discipline as d, profesori as p, grupe as g, studenti_reusita as r
+WHERE 
+    r.Id_Disciplina = d.Id_Disciplina
+    AND r.Id_Grupa = g.Id_Grupa
+    AND r.Id_Profesor = p.Id_Profesor
+    AND Cod_Grupa = '101'
+    AND Disciplina = 'Structuri de date si algoritmi';
+
+
+-- Insert into orarul for 'Programare aplicativa' at 11:30
+INSERT INTO orarul (Id_Disciplina, Id_Profesor, Id_Grupa, Zi, Ora, Auditoriu, Bloc)
+SELECT DISTINCT 
+    d.Id_Disciplina,
+    p.Id_Profesor,
+    g.Id_Grupa,
+    'Lu' as Zi,
+    CAST('11:30' AS time) as Ora,
+    205 as Auditoriu,
+    'B' as Bloc
+FROM 
+    discipline as d, profesori as p, grupe as g, studenti_reusita as r
+WHERE 
+    r.Id_Disciplina = d.Id_Disciplina
+    AND r.Id_Grupa = g.Id_Grupa
+    AND r.Id_Profesor = p.Id_Profesor
+    AND Cod_Grupa = '101'
+    AND Disciplina = 'Programare aplicativa';
+
+
+-- Insert into orarul for 'Baze de date' at 13:00
+INSERT INTO orarul (Id_Disciplina, Id_Profesor, Id_Grupa, Zi, Ora, Auditoriu, Bloc)
+SELECT DISTINCT 
+    d.Id_Disciplina,
+    p.Id_Profesor,
+    g.Id_Grupa,
+    'Lu' as Zi,
+    TIME '13:00' as Ora,  -- Use TIME constructor to convert string to time
+    205 as Auditoriu,
+    'B' as Bloc
+FROM 
+    discipline as d, profesori as p, grupe as g, studenti_reusita as r
+WHERE 
+    r.Id_Disciplina = d.Id_Disciplina
+    AND r.Id_Grupa = g.Id_Grupa
+    AND r.Id_Profesor = p.Id_Profesor
+    AND Cod_Grupa = '101'
+    AND Disciplina = 'Baze de date';

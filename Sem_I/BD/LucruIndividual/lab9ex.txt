@@ -1,0 +1,102 @@
+DO $$
+DECLARE 
+    n1 INT;
+    n2 INT;
+    n3 INT;
+    mai_mare INT;
+BEGIN
+    n1 := floor(random() * 60);
+    n2 := floor(random() * 60);
+    n3 := floor(random() * 60);
+
+    IF n1 >= n2 AND n1 >= n3 THEN
+        mai_mare := n1;
+    ELSIF n2 >= n1 AND n2 >= n3 THEN
+        mai_mare := n2;
+    ELSE
+        mai_mare := n3;
+    END IF;
+
+    RAISE NOTICE 'n1 = %', n1;
+    RAISE NOTICE 'n2 = %', n2;
+    RAISE NOTICE 'n3 = %', n3;
+    RAISE NOTICE 'Mai mare = %', mai_mare;
+END $$;
+
+DO $$
+DECLARE 
+    nume VARCHAR(20);
+    prenume VARCHAR(20);
+    nota INT;
+    count INT := 0;
+    index INT := 0;
+BEGIN
+    WHILE index < 10 LOOP
+        SELECT s.nume_student, s.prenume_student, sr.nota
+        INTO nume, prenume, nota
+        FROM studenti_reusita sr
+        JOIN discipline d ON d.id_disciplina = sr.id_disciplina
+        JOIN studenti s ON s.id_student = sr.id_student
+        WHERE sr.tip_evaluare = 'Testul 1' AND s.id_student = count + 100;
+
+        IF nota <> 6 AND nota <> 8 THEN
+            RAISE NOTICE '% %', nume, prenume;
+            index := index + 1;
+        END IF;
+        
+        count := count + 1;
+    END LOOP;
+END $$;
+
+DO $$
+DECLARE 
+    n1 INT;
+    n2 INT;
+    n3 INT;
+    mai_mare INT;
+BEGIN
+    n1 := floor(random() * 60);
+    n2 := floor(random() * 60);
+    n3 := floor(random() * 60);
+
+    mai_mare := 
+        CASE 
+            WHEN n1 >= n2 AND n1 >= n3 THEN n1
+            WHEN n2 >= n1 AND n2 >= n3 THEN n2
+            WHEN n3 >= n1 AND n3 >= n2 THEN n3
+        END;
+
+    RAISE NOTICE 'n1 = %', n1;
+    RAISE NOTICE 'n2 = %', n2;
+    RAISE NOTICE 'n3 = %', n3;
+    RAISE NOTICE 'Mai mare = %', mai_mare;
+END $$;
+
+DO $$
+DECLARE 
+    n1 INT := 60;
+    n2 INT := 60;
+    n3 INT := 60;
+    mai_mare INT := 0;
+BEGIN
+    mai_mare := 
+        CASE 
+            WHEN n1 > n2 AND n1 > n3 THEN n1
+            WHEN n2 > n1 AND n2 > n3 THEN n2
+            WHEN n3 > n1 AND n3 > n2 THEN n3
+            ELSE 0
+        END;
+
+    IF mai_mare = 0 THEN
+        RAISE EXCEPTION 'Toate numerele sunt egale';
+    END IF;
+
+    RAISE NOTICE 'n1 = %', n1;
+    RAISE NOTICE 'n2 = %', n2;
+    RAISE NOTICE 'n3 = %', n3;
+    RAISE NOTICE 'Mai mare = %', mai_mare;
+END $$;
+
+
+
+

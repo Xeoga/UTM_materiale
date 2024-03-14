@@ -1,0 +1,11 @@
+ ACPI support modules 
+   0400-0403   ACPI PM1a_EVT_BLK
+   0404-0405   ACPI PM1a_CNT_BLK
+   0408-040b   ACPI PM_TMR
+   0420-043f   ACPI GPE0_BLK
+   0450-0450   ACPI PM2_CNT_BLK
+ 79d31000-79d53fff   ACPI Tables
+ 79d54000-79dbdfff   ACPI Non-volatile Storage
+ 7aa57000-7aa57fff   ACPI Non-volatile Storage
+ 		ACPI is supported 
+ 		ACPI (ACPI supported) 

@@ -1,0 +1,8 @@
+select disciplina, average from (
+select id_disciplina, avg(cast(nota as float)) as average from (
+select id_disciplina, nota
+from studenti_reusita
+group by id_disciplina, nota, tip_evaluare) t
+group by id_disciplina) u
+join discipline on u.id_disciplina = discipline.id_disciplina
+where average > 7.0;

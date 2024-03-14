@@ -1,0 +1,76 @@
+1178: /lib/systemd/systemd --user
+1179: (sd-pam)
+1197: /usr/bin/pulseaudio --daemonize=no --log-target=journal
+1202: /usr/bin/dbus-daemon --session --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+1204: /usr/bin/kwalletd5 --pam-login 13 14
+1205: /usr/bin/startplasma-x11
+1257: /usr/bin/ssh-agent /usr/bin/startplasma-x11
+1274: /usr/libexec/pulse/gsettings-helper
+1319: /usr/libexec/gvfsd
+1338: /usr/bin/ksmserver
+1340: /usr/bin/kded5
+1343: /usr/bin/kwin_x11 --replace
+1371: /usr/bin/kglobalaccel5
+1385: /usr/lib/x86_64-linux-gnu/libexec/kactivitymanagerd
+1421: /usr/libexec/dconf-service
+1422: /usr/bin/gmenudbusmenuproxy
+1425: /usr/lib/x86_64-linux-gnu/libexec/polkit-kde-authentication-agent-1
+1427: /usr/lib/x86_64-linux-gnu/libexec/org_kde_powerdevil
+1428: /usr/bin/xembedsniproxy
+1534: /usr/bin/xsettingsd
+1535: /usr/lib/x86_64-linux-gnu/libexec/kf5/kscreen_backend_launcher
+1543: /usr/libexec/bluetooth/obexd
+1588: /usr/libexec/at-spi-bus-launcher --launch-immediately
+1589: /usr/libexec/geoclue-2.0/demos/agent
+1602: /usr/bin/kaccess
+1617: /usr/lib/x86_64-linux-gnu/libexec/DiscoverNotifier
+1655: /usr/bin/dbus-daemon --config-file=/usr/share/defaults/at-spi2/accessibility.conf --nofork --print-address 11 --address=unix:path=/run/user/1000/at-spi/bus_0
+1696: /usr/libexec/at-spi2-registryd --use-gnome-session
+1752: /usr/lib/firefox-esr/firefox-esr --sm-client-id 109874702d000169825866800000012310013
+1856: /usr/libexec/xdg-desktop-portal
+1862: /usr/libexec/xdg-document-portal
+1866: /usr/libexec/xdg-permission-store
+1884: /usr/libexec/xdg-desktop-portal-gtk
+1907: /usr/lib/x86_64-linux-gnu/libexec/xdg-desktop-portal-kde
+2052: /usr/lib/firefox-esr/firefox-esr -contentproc -parentBuildID 20231016232700 -prefsLen 30839 -prefMapSize 238061 -appDir /usr/lib/firefox-esr/browser {059563b0-a048-4d8f-b2d4-a7a64bbaa6a5} 1752 true socket
+2106: /usr/lib/firefox-esr/firefox-esr -contentproc -childID 1 -isForBrowser -prefsLen 30956 -prefMapSize 238061 -jsInitLen 240916 -parentBuildID 20231016232700 -appDir /usr/lib/firefox-esr/browser {8e5a0c6f-c38c-4d84-8594-f4a80ee3b685} 1752 true tab
+2164: /usr/lib/firefox-esr/firefox-esr -contentproc -childID 2 -isForBrowser -prefsLen 26691 -prefMapSize 238061 -jsInitLen 240916 -parentBuildID 20231016232700 -appDir /usr/lib/firefox-esr/browser {5e1b81c2-275a-4b71-a2e7-75389821d762} 1752 true tab
+2168: /usr/lib/firefox-esr/firefox-esr -contentproc -childID 3 -isForBrowser -prefsLen 26691 -prefMapSize 238061 -jsInitLen 240916 -parentBuildID 20231016232700 -appDir /usr/lib/firefox-esr/browser {39a7de80-4976-4cbf-93f8-9f0b3a357a3e} 1752 true tab
+2172: /usr/lib/firefox-esr/firefox-esr -contentproc -childID 4 -isForBrowser -prefsLen 26691 -prefMapSize 238061 -jsInitLen 240916 -parentBuildID 20231016232700 -appDir /usr/lib/firefox-esr/browser {703e3e6d-4be3-4867-8971-41cd447edaa2} 1752 true tab
+2178: /usr/lib/firefox-esr/firefox-esr -contentproc -childID 5 -isForBrowser -prefsLen 26691 -prefMapSize 238061 -jsInitLen 240916 -parentBuildID 20231016232700 -appDir /usr/lib/firefox-esr/browser {39e7da78-8dca-4307-ace1-b8fce379b40f} 1752 true tab
+2197: /usr/lib/firefox-esr/firefox-esr -contentproc -childID 6 -isForBrowser -prefsLen 26691 -prefMapSize 238061 -jsInitLen 240916 -parentBuildID 20231016232700 -appDir /usr/lib/firefox-esr/browser {abcc21fa-bc7d-4bd7-8f49-c3ec6fb10df5} 1752 true tab
+2204: /usr/lib/firefox-esr/firefox-esr -contentproc -childID 7 -isForBrowser -prefsLen 26691 -prefMapSize 238061 -jsInitLen 240916 -parentBuildID 20231016232700 -appDir /usr/lib/firefox-esr/browser {2f350d1b-10ee-42dc-8fd5-10b52656f990} 1752 true tab
+2224: /usr/lib/firefox-esr/firefox-esr -contentproc -childID 8 -isForBrowser -prefsLen 26691 -prefMapSize 238061 -jsInitLen 240916 -parentBuildID 20231016232700 -appDir /usr/lib/firefox-esr/browser {42d8a49b-2189-4a4b-b39d-db58401addd5} 1752 true tab
+2251: /usr/lib/firefox-esr/firefox-esr -contentproc -childID 9 -isForBrowser -prefsLen 26691 -prefMapSize 238061 -jsInitLen 240916 -parentBuildID 20231016232700 -appDir /usr/lib/firefox-esr/browser {d32b0ee3-3b16-4f04-89f4-36b88f611851} 1752 true tab
+2260: /usr/lib/firefox-esr/firefox-esr -contentproc -childID 10 -isForBrowser -prefsLen 26691 -prefMapSize 238061 -jsInitLen 240916 -parentBuildID 20231016232700 -appDir /usr/lib/firefox-esr/browser {b41e12e0-0da1-4f2e-9125-2a8b8f3970d3} 1752 true tab
+2284: /usr/lib/firefox-esr/firefox-esr -contentproc -childID 11 -isForBrowser -prefsLen 26691 -prefMapSize 238061 -jsInitLen 240916 -parentBuildID 20231016232700 -appDir /usr/lib/firefox-esr/browser {364d67a9-0a6d-4424-91ad-27e200220043} 1752 true tab
+2307: /usr/lib/firefox-esr/firefox-esr -contentproc -childID 12 -isForBrowser -prefsLen 26691 -prefMapSize 238061 -jsInitLen 240916 -parentBuildID 20231016232700 -appDir /usr/lib/firefox-esr/browser {9afa21ed-977e-4cad-814c-568135fd5d70} 1752 true tab
+2329: /usr/lib/firefox-esr/firefox-esr -contentproc -childID 13 -isForBrowser -prefsLen 26691 -prefMapSize 238061 -jsInitLen 240916 -parentBuildID 20231016232700 -appDir /usr/lib/firefox-esr/browser {fe308d8f-c64c-4073-9d39-a0cda839cc4d} 1752 true tab
+2587: /usr/lib/firefox-esr/firefox-esr -contentproc -childID 14 -isForBrowser -prefsLen 35986 -prefMapSize 238061 -jsInitLen 240916 -parentBuildID 20231016232700 -appDir /usr/lib/firefox-esr/browser {69692ead-66dd-4b31-ba74-82c053121d4b} 1752 true tab
+2637: /usr/lib/firefox-esr/firefox-esr -contentproc -childID 15 -isForBrowser -prefsLen 30931 -prefMapSize 238061 -jsInitLen 240916 -parentBuildID 20231016232700 -appDir /usr/lib/firefox-esr/browser {087acd39-9b50-4efa-8c3d-d86058ebf6a7} 1752 true tab
+2690: /usr/lib/firefox-esr/firefox-esr -contentproc -childID 17 -isForBrowser -prefsLen 30931 -prefMapSize 238061 -jsInitLen 240916 -parentBuildID 20231016232700 -appDir /usr/lib/firefox-esr/browser {14dc0df6-3370-440a-8d27-7e7e074f5507} 1752 true tab
+2717: /usr/lib/firefox-esr/firefox-esr -contentproc -childID 18 -isForBrowser -prefsLen 30931 -prefMapSize 238061 -jsInitLen 240916 -parentBuildID 20231016232700 -appDir /usr/lib/firefox-esr/browser {586bd81e-774f-46a3-a963-c1a8093db80f} 1752 true tab
+2799: /usr/lib/firefox-esr/firefox-esr -contentproc -childID 19 -isForBrowser -prefsLen 31035 -prefMapSize 238061 -jsInitLen 240916 -parentBuildID 20231016232700 -appDir /usr/lib/firefox-esr/browser {01827430-5143-4369-9467-4a55fc0ffdc8} 1752 true tab
+3187: /usr/lib/firefox-esr/firefox-esr -contentproc -parentBuildID 20231016232700 -prefsLen 36200 -prefMapSize 238061 -appDir /usr/lib/firefox-esr/browser {74eb94ba-4100-4744-bed8-a4ad8d29ab40} 1752 true rdd
+3192: /usr/lib/firefox-esr/firefox-esr -contentproc -parentBuildID 20231016232700 -sandboxingKind 0 -prefsLen 36200 -prefMapSize 238061 -appDir /usr/lib/firefox-esr/browser {0c69e747-e1f3-46b6-8868-881f330d534b} 1752 true utility
+5301: /usr/lib/x86_64-linux-gnu/libexec/baloorunner
+5452: /usr/bin/plasmashell
+5491: /usr/bin/ksystemstats
+5540: /usr/lib/x86_64-linux-gnu/qt5/libexec/QtWebEngineProcess --type=zygote --no-zygote-sandbox --application-name=plasmashell --webengine-schemes=qrc:sLV --lang=en
+5541: /usr/lib/x86_64-linux-gnu/qt5/libexec/QtWebEngineProcess --type=zygote --application-name=plasmashell --webengine-schemes=qrc:sLV --lang=en
+5543: /usr/lib/x86_64-linux-gnu/qt5/libexec/QtWebEngineProcess --type=zygote --application-name=plasmashell --webengine-schemes=qrc:sLV --lang=en
+5573: /usr/lib/x86_64-linux-gnu/qt5/libexec/QtWebEngineProcess --type=renderer --disable-speech-api --enable-threaded-compositing --enable-features=AllowContentInitiatedDataUrlNavigations,NetworkServiceInProcess,TracingServiceInProcess --disable-features=BackgroundFetch,ConsolidatedMovementXY,DnsOverHttpsUpgrade,FontSrcLocalMatching,InstalledApp,MojoVideoCapture,PictureInPicture,SmsReceiver,UseSkiaRenderer,WebPayments,WebUSB --lang=en --webengine-schemes=qrc:sLV --num-raster-threads=2 --enable-main-frame-before-activation --renderer-client-id=3 --shared-files
+5631: /usr/lib/x86_64-linux-gnu/qt5/libexec/QtWebEngineProcess --type=renderer --disable-speech-api --enable-threaded-compositing --enable-features=AllowContentInitiatedDataUrlNavigations,NetworkServiceInProcess,TracingServiceInProcess --disable-features=BackgroundFetch,ConsolidatedMovementXY,DnsOverHttpsUpgrade,FontSrcLocalMatching,InstalledApp,MojoVideoCapture,PictureInPicture,SmsReceiver,UseSkiaRenderer,WebPayments,WebUSB --lang=en --webengine-schemes=qrc:sLV --num-raster-threads=2 --enable-main-frame-before-activation --renderer-client-id=5 --shared-files
+5650: /usr/bin/konsole
+5666: /bin/fish
+6027: /usr/lib/libreoffice/program/oosplash --writer /home/h1p/UTM/OS/Lab_5/Chirita_stanislav_SI_211_Lab5.docx
+6068: /usr/lib/libreoffice/program/soffice.bin --writer /home/h1p/UTM/OS/Lab_5/Chirita_stanislav_SI_211_Lab5.docx --splash-pipe=5
+6439: /bin/fish
+7439: /usr/bin/dolphin /home/h1p/UTM/OS/Lab_6/.
+7799: /usr/bin/telegram-desktop
+8650: /usr/lib/firefox-esr/firefox-esr -contentproc -childID 42 -isForBrowser -prefsLen 31092 -prefMapSize 238061 -jsInitLen 240916 -parentBuildID 20231016232700 -appDir /usr/lib/firefox-esr/browser {c4c94688-8238-4dc8-8df5-a101c76e8651} 1752 true tab
+8741: /usr/lib/firefox-esr/firefox-esr -contentproc -childID 43 -isForBrowser -prefsLen 31092 -prefMapSize 238061 -jsInitLen 240916 -parentBuildID 20231016232700 -appDir /usr/lib/firefox-esr/browser {3af67b10-54ef-43a2-984e-586abae79605} 1752 true tab
+8826: /usr/bin/okular /home/h1p/UTM/OS/SOMIPPlab2022(RU).pdf
+8937: /usr/lib/firefox-esr/firefox-esr -contentproc -childID 44 -isForBrowser -prefsLen 31092 -prefMapSize 238061 -jsInitLen 240916 -parentBuildID 20231016232700 -appDir /usr/lib/firefox-esr/browser {1fb2e8c9-058b-4288-88c7-d0b3f40ba512} 1752 true tab
+9035: /bin/bash ./Task1.sh
+9036: ps -u h1p -o pid,cmd --no-headers

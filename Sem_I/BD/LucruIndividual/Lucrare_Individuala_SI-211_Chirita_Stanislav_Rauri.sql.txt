@@ -1,0 +1,59 @@
+-- Crearea bazei de date
+CREATE DATABASE IF NOT EXISTS Riuri;
+USE Riuri;
+
+-- Crearea tabelului 'orase'
+CREATE TABLE orase (
+    Nume VARCHAR(255) NOT NULL,
+    Judet VARCHAR(255) NOT NULL,
+    NumarLocuitori INT,
+    PRIMARY KEY (Nume)
+);
+
+-- Crearea tabelului 'riuri'
+CREATE TABLE riuri (
+    Rau VARCHAR(255) NOT NULL,
+    Lungime INT,
+    PRIMARY KEY (Rau)
+);
+
+-- Crearea tabelului 'traversari'
+CREATE TABLE traversari (
+    Oras VARCHAR(255) NOT NULL,
+    Rau VARCHAR(255) NOT NULL,
+    FOREIGN KEY (Oras) REFERENCES orase(Nume),
+    FOREIGN KEY (Rau) REFERENCES riuri(Rau)
+);
+
+-- Crearea tabelului 'detalii_orase'
+CREATE TABLE detalii_orase (
+    OrasNume VARCHAR(255) NOT NULL,
+    Descriere TEXT,
+    AtractiiTuristice TEXT,
+    PRIMARY KEY (OrasNume),
+    FOREIGN KEY (OrasNume) REFERENCES orase(Nume)
+);
+
+-- Inserarea datelor în tabelul 'orase'
+INSERT INTO orase (Nume, Judet, NumarLocuitori) VALUES
+('Oras1', 'Judet1', 100000),
+('Oras2', 'Judet2', 50000),
+('Oras3', 'Judet3', 75000);
+
+-- Inserarea datelor în tabelul 'riuri'
+INSERT INTO riuri (Rau, Lungime) VALUES
+('Rau1', 250),
+('Rau2', 340),
+('Rau3', 180);
+
+-- Inserarea datelor în tabelul 'traversari'
+INSERT INTO traversari (Oras, Rau) VALUES
+('Oras1', 'Rau1'),
+('Oras2', 'Rau2'),
+('Oras3', 'Rau1');
+
+-- Inserarea datelor în tabelul 'detalii_orase'
+INSERT INTO detalii_orase (OrasNume, Descriere, AtractiiTuristice) VALUES
+('Oras1', 'Descriere pentru Oras1', 'Atractii pentru Oras1'),
+('Oras2', 'Descriere pentru Oras2', 'Atractii pentru Oras2'),
+('Oras3', 'Descriere pentru Oras3', 'Atractii pentru Oras3');

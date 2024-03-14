@@ -1,0 +1,7 @@
+SELECT studenti.nume_student, studenti.prenume_student
+FROM studenti
+JOIN studenti_reusita ON studenti.id_student = studenti_reusita.id_student
+WHERE studenti_reusita.tip_evaluare = 'Evaluarea2'
+AND id_disciplina = 30
+ORDER BY nota DESC
+LIMIT 5;

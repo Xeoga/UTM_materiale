@@ -1,0 +1,351 @@
+ProcessID=101296:Parent_ProcessID=1:Average_Time=0
+ProcessID=1063:Parent_ProcessID=863:Average_Time=0
+ProcessID=1066:Parent_ProcessID=1:Average_Time=0
+ProcessID=1067:Parent_ProcessID=1066:Average_Time=0
+ProcessID=107363:Parent_ProcessID=77246:Average_Time=0
+ProcessID=108152:Parent_ProcessID=1066:Average_Time=0
+ProcessID=1087:Parent_ProcessID=1066:Average_Time=0
+ProcessID=1092:Parent_ProcessID=1066:Average_Time=0
+ProcessID=1094:Parent_ProcessID=1:Average_Time=0
+ProcessID=1095:Parent_ProcessID=1063:Average_Time=0
+ProcessID=112141:Parent_ProcessID=77246:Average_Time=0
+ProcessID=113373:Parent_ProcessID=29952:Average_Time=0
+ProcessID=1147:Parent_ProcessID=1095:Average_Time=0
+ProcessID=1163:Parent_ProcessID=1087:Average_Time=0
+ProcessID=11:Parent_ProcessID=2:Average_Time=0
+ProcessID=1208:Parent_ProcessID=1066:Average_Time=0
+ProcessID=121090:Parent_ProcessID=77246:Average_Time=0
+ProcessID=121190:Parent_ProcessID=77246:Average_Time=0
+ProcessID=1228:Parent_ProcessID=1066:Average_Time=0
+ProcessID=1230:Parent_ProcessID=1066:Average_Time=0
+ProcessID=1233:Parent_ProcessID=1066:Average_Time=0
+ProcessID=123514:Parent_ProcessID=77246:Average_Time=0
+ProcessID=126070:Parent_ProcessID=77246:Average_Time=0
+ProcessID=1266:Parent_ProcessID=1066:Average_Time=0
+ProcessID=1276:Parent_ProcessID=1066:Average_Time=0
+ProcessID=12:Parent_ProcessID=2:Average_Time=0
+ProcessID=130158:Parent_ProcessID=2:Average_Time=0
+ProcessID=1301:Parent_ProcessID=1066:Average_Time=0
+ProcessID=130782:Parent_ProcessID=77246:Average_Time=0
+ProcessID=1317:Parent_ProcessID=1066:Average_Time=0
+ProcessID=1333:Parent_ProcessID=1066:Average_Time=0
+ProcessID=1334:Parent_ProcessID=1066:Average_Time=0
+ProcessID=1335:Parent_ProcessID=1066:Average_Time=0
+ProcessID=1336:Parent_ProcessID=1066:Average_Time=0
+ProcessID=1354:Parent_ProcessID=1:Average_Time=0
+ProcessID=1378:Parent_ProcessID=1:Average_Time=0
+ProcessID=138018:Parent_ProcessID=2:Average_Time=0
+ProcessID=13:Parent_ProcessID=2:Average_Time=0
+ProcessID=142849:Parent_ProcessID=77246:Average_Time=0
+ProcessID=1432:Parent_ProcessID=1066:Average_Time=0
+ProcessID=143380:Parent_ProcessID=77246:Average_Time=0
+ProcessID=143:Parent_ProcessID=2:Average_Time=0
+ProcessID=1443:Parent_ProcessID=1066:Average_Time=0
+ProcessID=145075:Parent_ProcessID=77246:Average_Time=0
+ProcessID=145485:Parent_ProcessID=77246:Average_Time=0
+ProcessID=146336:Parent_ProcessID=113373:Average_Time=0
+ProcessID=146340:Parent_ProcessID=146336:Average_Time=0
+ProcessID=146341:Parent_ProcessID=146340:Average_Time=0
+ProcessID=1484:Parent_ProcessID=1066:Average_Time=0
+ProcessID=1485:Parent_ProcessID=1066:Average_Time=0
+ProcessID=1494:Parent_ProcessID=1066:Average_Time=0
+ProcessID=149633:Parent_ProcessID=29952:Average_Time=0
+ProcessID=14:Parent_ProcessID=2:Average_Time=0
+ProcessID=151014:Parent_ProcessID=29952:Average_Time=0
+ProcessID=15151:Parent_ProcessID=1066:Average_Time=0
+ProcessID=15173:Parent_ProcessID=1066:Average_Time=0
+ProcessID=1520:Parent_ProcessID=1484:Average_Time=0
+ProcessID=15258:Parent_ProcessID=15151:Average_Time=0
+ProcessID=15259:Parent_ProcessID=15151:Average_Time=0
+ProcessID=15261:Parent_ProcessID=15259:Average_Time=0
+ProcessID=15292:Parent_ProcessID=15261:Average_Time=0
+ProcessID=1529:Parent_ProcessID=1066:Average_Time=0
+ProcessID=15451:Parent_ProcessID=15261:Average_Time=0
+ProcessID=154797:Parent_ProcessID=29952:Average_Time=0
+ProcessID=155365:Parent_ProcessID=29952:Average_Time=0
+ProcessID=155549:Parent_ProcessID=2:Average_Time=0
+ProcessID=1575:Parent_ProcessID=1066:Average_Time=0
+ProcessID=157624:Parent_ProcessID=77246:Average_Time=0
+ProcessID=157651:Parent_ProcessID=2:Average_Time=0
+ProcessID=159251:Parent_ProcessID=2:Average_Time=0
+ProcessID=159290:Parent_ProcessID=2:Average_Time=0
+ProcessID=159500:Parent_ProcessID=1066:Average_Time=0
+ProcessID=159742:Parent_ProcessID=2:Average_Time=0
+ProcessID=159743:Parent_ProcessID=2:Average_Time=0
+ProcessID=159744:Parent_ProcessID=2:Average_Time=0
+ProcessID=159747:Parent_ProcessID=2:Average_Time=0
+ProcessID=159749:Parent_ProcessID=2:Average_Time=0
+ProcessID=159750:Parent_ProcessID=2:Average_Time=0
+ProcessID=159757:Parent_ProcessID=2:Average_Time=0
+ProcessID=15:Parent_ProcessID=2:Average_Time=0
+ProcessID=160212:Parent_ProcessID=1066:Average_Time=0
+ProcessID=160254:Parent_ProcessID=2:Average_Time=0
+ProcessID=160412:Parent_ProcessID=77246:Average_Time=0
+ProcessID=161:Parent_ProcessID=2:Average_Time=0
+ProcessID=162928:Parent_ProcessID=2:Average_Time=0
+ProcessID=162930:Parent_ProcessID=2:Average_Time=0
+ProcessID=162960:Parent_ProcessID=77246:Average_Time=0
+ProcessID=162984:Parent_ProcessID=2:Average_Time=0
+ProcessID=162985:Parent_ProcessID=2:Average_Time=0
+ProcessID=162989:Parent_ProcessID=2:Average_Time=0
+ProcessID=163159:Parent_ProcessID=77246:Average_Time=0
+ProcessID=164074:Parent_ProcessID=2:Average_Time=0
+ProcessID=164233:Parent_ProcessID=2:Average_Time=0
+ProcessID=165275:Parent_ProcessID=2:Average_Time=0
+ProcessID=165386:Parent_ProcessID=154797:Average_Time=0
+ProcessID=168:Parent_ProcessID=2:Average_Time=0
+ProcessID=16:Parent_ProcessID=2:Average_Time=0
+ProcessID=1733:Parent_ProcessID=1066:Average_Time=0
+ProcessID=1741:Parent_ProcessID=1066:Average_Time=0
+ProcessID=1748:Parent_ProcessID=1066:Average_Time=0
+ProcessID=1761:Parent_ProcessID=1741:Average_Time=0
+ProcessID=1769:Parent_ProcessID=1066:Average_Time=0
+ProcessID=1788:Parent_ProcessID=1066:Average_Time=0
+ProcessID=17:Parent_ProcessID=2:Average_Time=0
+ProcessID=18:Parent_ProcessID=2:Average_Time=0
+ProcessID=19419:Parent_ProcessID=1:Average_Time=0
+ProcessID=196:Parent_ProcessID=2:Average_Time=0
+ProcessID=197:Parent_ProcessID=2:Average_Time=0
+ProcessID=19:Parent_ProcessID=2:Average_Time=0
+ProcessID=1:Parent_ProcessID=0:Average_Time=0
+ProcessID=20229:Parent_ProcessID=1066:Average_Time=0
+ProcessID=203:Parent_ProcessID=2:Average_Time=0
+ProcessID=209:Parent_ProcessID=2:Average_Time=0
+ProcessID=20:Parent_ProcessID=2:Average_Time=0
+ProcessID=211:Parent_ProcessID=2:Average_Time=0
+ProcessID=212:Parent_ProcessID=2:Average_Time=0
+ProcessID=214:Parent_ProcessID=2:Average_Time=0
+ProcessID=21:Parent_ProcessID=2:Average_Time=0
+ProcessID=221:Parent_ProcessID=2:Average_Time=0
+ProcessID=222:Parent_ProcessID=2:Average_Time=0
+ProcessID=223:Parent_ProcessID=2:Average_Time=0
+ProcessID=224:Parent_ProcessID=2:Average_Time=0
+ProcessID=22:Parent_ProcessID=2:Average_Time=0
+ProcessID=23:Parent_ProcessID=2:Average_Time=0
+ProcessID=24788:Parent_ProcessID=2:Average_Time=0
+ProcessID=25:Parent_ProcessID=2:Average_Time=0
+ProcessID=269:Parent_ProcessID=2:Average_Time=0
+ProcessID=26:Parent_ProcessID=2:Average_Time=0
+ProcessID=270:Parent_ProcessID=2:Average_Time=0
+ProcessID=27:Parent_ProcessID=2:Average_Time=0
+ProcessID=28:Parent_ProcessID=2:Average_Time=0
+ProcessID=29952:Parent_ProcessID=1066:Average_Time=0
+ProcessID=29969:Parent_ProcessID=29952:Average_Time=0
+ProcessID=29:Parent_ProcessID=2:Average_Time=0
+ProcessID=2:Parent_ProcessID=0:Average_Time=0
+ProcessID=31694:Parent_ProcessID=1066:Average_Time=0
+ProcessID=31:Parent_ProcessID=2:Average_Time=0
+ProcessID=329:Parent_ProcessID=1:Average_Time=0
+ProcessID=32:Parent_ProcessID=2:Average_Time=0
+ProcessID=33:Parent_ProcessID=2:Average_Time=0
+ProcessID=344:Parent_ProcessID=1:Average_Time=0
+ProcessID=34:Parent_ProcessID=2:Average_Time=0
+ProcessID=35:Parent_ProcessID=2:Average_Time=0
+ProcessID=36412:Parent_ProcessID=1066:Average_Time=0
+ProcessID=36418:Parent_ProcessID=1208:Average_Time=0
+ProcessID=36588:Parent_ProcessID=1066:Average_Time=0
+ProcessID=368:Parent_ProcessID=2:Average_Time=0
+ProcessID=37:Parent_ProcessID=2:Average_Time=0
+ProcessID=3:Parent_ProcessID=2:Average_Time=0
+ProcessID=42:Parent_ProcessID=2:Average_Time=0
+ProcessID=43:Parent_ProcessID=2:Average_Time=0
+ProcessID=44:Parent_ProcessID=2:Average_Time=0
+ProcessID=46697:Parent_ProcessID=29952:Average_Time=0
+ProcessID=46:Parent_ProcessID=2:Average_Time=0
+ProcessID=472:Parent_ProcessID=2:Average_Time=0
+ProcessID=474:Parent_ProcessID=2:Average_Time=0
+ProcessID=4798:Parent_ProcessID=1066:Average_Time=0
+ProcessID=47:Parent_ProcessID=2:Average_Time=0
+ProcessID=48:Parent_ProcessID=2:Average_Time=0
+ProcessID=492:Parent_ProcessID=2:Average_Time=0
+ProcessID=49:Parent_ProcessID=2:Average_Time=0
+ProcessID=4:Parent_ProcessID=2:Average_Time=0
+ProcessID=50:Parent_ProcessID=2:Average_Time=0
+ProcessID=51:Parent_ProcessID=2:Average_Time=0
+ProcessID=523:Parent_ProcessID=2:Average_Time=0
+ProcessID=524:Parent_ProcessID=2:Average_Time=0
+ProcessID=525:Parent_ProcessID=2:Average_Time=0
+ProcessID=526:Parent_ProcessID=2:Average_Time=0
+ProcessID=527:Parent_ProcessID=2:Average_Time=0
+ProcessID=52:Parent_ProcessID=2:Average_Time=0
+ProcessID=53:Parent_ProcessID=2:Average_Time=0
+ProcessID=54:Parent_ProcessID=2:Average_Time=0
+ProcessID=57:Parent_ProcessID=2:Average_Time=0
+ProcessID=58:Parent_ProcessID=2:Average_Time=0
+ProcessID=59:Parent_ProcessID=2:Average_Time=0
+ProcessID=5:Parent_ProcessID=2:Average_Time=0
+ProcessID=61:Parent_ProcessID=2:Average_Time=0
+ProcessID=645:Parent_ProcessID=1:Average_Time=0
+ProcessID=646:Parent_ProcessID=1:Average_Time=0
+ProcessID=672:Parent_ProcessID=2:Average_Time=0
+ProcessID=673:Parent_ProcessID=2:Average_Time=0
+ProcessID=677:Parent_ProcessID=1:Average_Time=0
+ProcessID=679:Parent_ProcessID=1:Average_Time=0
+ProcessID=67:Parent_ProcessID=2:Average_Time=0
+ProcessID=681:Parent_ProcessID=1:Average_Time=0
+ProcessID=682:Parent_ProcessID=1:Average_Time=0
+ProcessID=683:Parent_ProcessID=1:Average_Time=0
+ProcessID=69:Parent_ProcessID=2:Average_Time=0
+ProcessID=6:Parent_ProcessID=2:Average_Time=0
+ProcessID=70:Parent_ProcessID=2:Average_Time=0
+ProcessID=72:Parent_ProcessID=2:Average_Time=0
+ProcessID=731:Parent_ProcessID=1:Average_Time=0
+ProcessID=735:Parent_ProcessID=1:Average_Time=0
+ProcessID=74:Parent_ProcessID=2:Average_Time=0
+ProcessID=75667:Parent_ProcessID=1:Average_Time=0
+ProcessID=76255:Parent_ProcessID=1:Average_Time=0
+ProcessID=76256:Parent_ProcessID=76255:Average_Time=0
+ProcessID=76257:Parent_ProcessID=76255:Average_Time=0
+ProcessID=76259:Parent_ProcessID=76255:Average_Time=0
+ProcessID=76260:Parent_ProcessID=76255:Average_Time=0
+ProcessID=76261:Parent_ProcessID=76255:Average_Time=0
+ProcessID=764:Parent_ProcessID=1:Average_Time=0
+ProcessID=77246:Parent_ProcessID=1066:Average_Time=0
+ProcessID=77759:Parent_ProcessID=77246:Average_Time=0
+ProcessID=77891:Parent_ProcessID=77246:Average_Time=0
+ProcessID=77933:Parent_ProcessID=77246:Average_Time=0
+ProcessID=78054:Parent_ProcessID=77246:Average_Time=0
+ProcessID=78062:Parent_ProcessID=77246:Average_Time=0
+ProcessID=78071:Parent_ProcessID=77246:Average_Time=0
+ProcessID=78080:Parent_ProcessID=77246:Average_Time=0
+ProcessID=78089:Parent_ProcessID=77246:Average_Time=0
+ProcessID=78102:Parent_ProcessID=77246:Average_Time=0
+ProcessID=78121:Parent_ProcessID=77246:Average_Time=0
+ProcessID=78717:Parent_ProcessID=77246:Average_Time=0
+ProcessID=79071:Parent_ProcessID=2:Average_Time=0
+ProcessID=79072:Parent_ProcessID=2:Average_Time=0
+ProcessID=79075:Parent_ProcessID=2:Average_Time=0
+ProcessID=79076:Parent_ProcessID=2:Average_Time=0
+ProcessID=79077:Parent_ProcessID=2:Average_Time=0
+ProcessID=79078:Parent_ProcessID=2:Average_Time=0
+ProcessID=79079:Parent_ProcessID=2:Average_Time=0
+ProcessID=79080:Parent_ProcessID=2:Average_Time=0
+ProcessID=79:Parent_ProcessID=2:Average_Time=0
+ProcessID=80437:Parent_ProcessID=77246:Average_Time=0
+ProcessID=80448:Parent_ProcessID=77246:Average_Time=0
+ProcessID=83037:Parent_ProcessID=77246:Average_Time=0
+ProcessID=84618:Parent_ProcessID=1:Average_Time=0
+ProcessID=848:Parent_ProcessID=1:Average_Time=0
+ProcessID=863:Parent_ProcessID=1:Average_Time=0
+ProcessID=87119:Parent_ProcessID=2:Average_Time=0
+ProcessID=874:Parent_ProcessID=863:Average_Time=0
+ProcessID=891:Parent_ProcessID=1:Average_Time=0
+ProcessID=8:Parent_ProcessID=2:Average_Time=0
+ProcessID=907:Parent_ProcessID=891:Average_Time=0
+ProcessID=908:Parent_ProcessID=891:Average_Time=0
+ProcessID=910:Parent_ProcessID=891:Average_Time=0
+ProcessID=911:Parent_ProcessID=891:Average_Time=0
+ProcessID=912:Parent_ProcessID=891:Average_Time=0
+ProcessID=971:Parent_ProcessID=1:Average_Time=0
+Sum_switches_of_ParentID= is 0
+Sum_switches_of_ParentID=1 is 
+Sum_switches_of_ParentID=863 is 
+Sum_switches_of_ParentID=1 is 
+Sum_switches_of_ParentID=1066 is 
+Sum_switches_of_ParentID=77246 is 
+Sum_switches_of_ParentID=1066 is 0
+Sum_switches_of_ParentID=1 is 
+Sum_switches_of_ParentID=1063 is 
+Sum_switches_of_ParentID=77246 is 
+Sum_switches_of_ParentID=29952 is 
+Sum_switches_of_ParentID=1095 is 
+Sum_switches_of_ParentID=1087 is 
+Sum_switches_of_ParentID=2 is 
+Sum_switches_of_ParentID=1066 is 
+Sum_switches_of_ParentID=77246 is 0
+Sum_switches_of_ParentID=1066 is 0
+Sum_switches_of_ParentID=77246 is 0
+Sum_switches_of_ParentID=1066 is 0
+Sum_switches_of_ParentID=2 is 0
+Sum_switches_of_ParentID=1066 is 
+Sum_switches_of_ParentID=77246 is 
+Sum_switches_of_ParentID=1066 is 0
+Sum_switches_of_ParentID=1 is 0
+Sum_switches_of_ParentID=2 is 0
+Sum_switches_of_ParentID=77246 is 
+Sum_switches_of_ParentID=1066 is 
+Sum_switches_of_ParentID=77246 is 
+Sum_switches_of_ParentID=2 is 
+Sum_switches_of_ParentID=1066 is 
+Sum_switches_of_ParentID=77246 is 0
+Sum_switches_of_ParentID=113373 is 
+Sum_switches_of_ParentID=146336 is 
+Sum_switches_of_ParentID=146340 is 
+Sum_switches_of_ParentID=1066 is 0
+Sum_switches_of_ParentID=29952 is 
+Sum_switches_of_ParentID=2 is 
+Sum_switches_of_ParentID=29952 is 
+Sum_switches_of_ParentID=1066 is 0
+Sum_switches_of_ParentID=1484 is 
+Sum_switches_of_ParentID=15151 is 0
+Sum_switches_of_ParentID=15259 is 
+Sum_switches_of_ParentID=15261 is 
+Sum_switches_of_ParentID=1066 is 
+Sum_switches_of_ParentID=15261 is 
+Sum_switches_of_ParentID=29952 is 0
+Sum_switches_of_ParentID=2 is 
+Sum_switches_of_ParentID=1066 is 
+Sum_switches_of_ParentID=77246 is 
+Sum_switches_of_ParentID=2 is 0
+Sum_switches_of_ParentID=1066 is 
+Sum_switches_of_ParentID=2 is 0
+Sum_switches_of_ParentID=1066 is 
+Sum_switches_of_ParentID=2 is 
+Sum_switches_of_ParentID=77246 is 
+Sum_switches_of_ParentID=2 is 0
+Sum_switches_of_ParentID=77246 is 
+Sum_switches_of_ParentID=2 is 0
+Sum_switches_of_ParentID=77246 is 
+Sum_switches_of_ParentID=2 is 0
+Sum_switches_of_ParentID=154797 is 
+Sum_switches_of_ParentID=2 is 0
+Sum_switches_of_ParentID=1066 is 0
+Sum_switches_of_ParentID=1741 is 
+Sum_switches_of_ParentID=1066 is 0
+Sum_switches_of_ParentID=2 is 0
+Sum_switches_of_ParentID=1 is 
+Sum_switches_of_ParentID=2 is 0
+Sum_switches_of_ParentID=0 is 
+Sum_switches_of_ParentID=1066 is 
+Sum_switches_of_ParentID=2 is 0
+Sum_switches_of_ParentID=1066 is 
+Sum_switches_of_ParentID=29952 is 
+Sum_switches_of_ParentID=2 is 
+Sum_switches_of_ParentID=0 is 
+Sum_switches_of_ParentID=1066 is 
+Sum_switches_of_ParentID=2 is 
+Sum_switches_of_ParentID=1 is 
+Sum_switches_of_ParentID=2 is 0
+Sum_switches_of_ParentID=1 is 
+Sum_switches_of_ParentID=2 is 0
+Sum_switches_of_ParentID=1066 is 
+Sum_switches_of_ParentID=1208 is 
+Sum_switches_of_ParentID=1066 is 
+Sum_switches_of_ParentID=2 is 0
+Sum_switches_of_ParentID=29952 is 
+Sum_switches_of_ParentID=2 is 0
+Sum_switches_of_ParentID=1066 is 
+Sum_switches_of_ParentID=2 is 0
+Sum_switches_of_ParentID=1 is 0
+Sum_switches_of_ParentID=2 is 0
+Sum_switches_of_ParentID=1 is 0
+Sum_switches_of_ParentID=2 is 
+Sum_switches_of_ParentID=1 is 0
+Sum_switches_of_ParentID=2 is 0
+Sum_switches_of_ParentID=1 is 0
+Sum_switches_of_ParentID=2 is 
+Sum_switches_of_ParentID=1 is 0
+Sum_switches_of_ParentID=76255 is 0
+Sum_switches_of_ParentID=1 is 
+Sum_switches_of_ParentID=1066 is 
+Sum_switches_of_ParentID=77246 is 0
+Sum_switches_of_ParentID=2 is 0
+Sum_switches_of_ParentID=77246 is 0
+Sum_switches_of_ParentID=1 is 0
+Sum_switches_of_ParentID=2 is 
+Sum_switches_of_ParentID=863 is 
+Sum_switches_of_ParentID=1 is 
+Sum_switches_of_ParentID=2 is 
+Sum_switches_of_ParentID=891 is 0
+Sum_switches_of_ParentID=1 is 
+Sum_switches_of_ParentID= is 0

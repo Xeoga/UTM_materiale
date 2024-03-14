@@ -1,0 +1,15 @@
+select nume_student, prenume_student
+from studenti_reusita
+join studenti on studenti.id_student = studenti_reusita.id_student
+join profesori on profesori.id_profesor = studenti_reusita.id_profesor
+where tip_evaluare = 'Examen'
+and prenume_profesor = 'Ion'
+and EXTRACT(YEAR FROM data_evaluare) = 2017
+union
+select distinct nume_student, prenume_student
+from studenti_reusita
+join studenti on studenti.id_student = studenti_reusita.id_student
+join profesori on profesori.id_profesor = studenti_reusita.id_profesor
+where tip_evaluare = 'Examen'
+and prenume_profesor = 'George'
+and EXTRACT(YEAR FROM data_evaluare) = 2017;
