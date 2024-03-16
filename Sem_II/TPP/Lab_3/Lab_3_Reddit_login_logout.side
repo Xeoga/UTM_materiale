@@ -1,0 +1,207 @@
+{
+  "id": "2296bbcc-43ab-4341-b9c3-d76b4b6f14f1",
+  "version": "2.0",
+  "name": "Lab_2_TPP",
+  "url": "https://www.reddit.com/",
+  "tests": [{
+    "id": "a509a51d-0e25-42f9-80f1-37b49c6c9c49",
+    "name": "Login_Logout_Nessus",
+    "commands": [{
+      "id": "b31235de-cf55-4299-b894-c2425f3e2fc2",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.reddit.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "60a06c86-8fdc-4166-8da9-0e974c1468a8",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1920x1080",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "4e592e6b-97ae-4b74-9239-2de4a40236af",
+    "name": "New_Script",
+    "commands": [{
+      "id": "461ff4f0-c5fe-4987-9c5b-c3842ffbe2b9",
+      "comment": "",
+      "command": "open",
+      "target": "/bmr-calculator.html",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "409b65f1-4af0-40c3-a3f7-8ad0380b0587",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "900x600",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "11bdaa5a-e24c-4133-8486-9dd163f52ed8",
+      "comment": "",
+      "command": "click",
+      "target": "css=input:nth-child(2)",
+      "targets": [
+        ["css=input:nth-child(2)", "css:finder"],
+        ["xpath=//input[@value='Clear']", "xpath:attributes"],
+        ["xpath=//div[@id='content']/div[3]/div[2]/form/table[4]/tbody/tr[2]/td/input[2]", "xpath:idRelative"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "599cf2ea-fd0b-46b1-b880-007dd097b969",
+      "comment": "",
+      "command": "click",
+      "target": "id=cage",
+      "targets": [
+        ["id=cage", "id"],
+        ["name=cage", "name"],
+        ["css=#cage", "css:finder"],
+        ["xpath=//input[@id='cage']", "xpath:attributes"],
+        ["xpath=//table[@id='calinputtable']/tbody/tr/td[2]/input", "xpath:idRelative"],
+        ["xpath=//td[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a9ba30d8-5d55-45a8-a79d-798ccea256fa",
+      "comment": "",
+      "command": "type",
+      "target": "id=cage",
+      "targets": [],
+      "value": "18"
+    }, {
+      "id": "dec54276-d3fd-41c9-8de7-a5cfeb57f0c0",
+      "comment": "",
+      "command": "click",
+      "target": "css=td > .cbcontainer:nth-child(1)",
+      "targets": [
+        ["css=td > .cbcontainer:nth-child(1)", "css:finder"],
+        ["xpath=//table[@id='calinputtable']/tbody/tr[2]/td[2]/label", "xpath:idRelative"],
+        ["xpath=//label", "xpath:position"],
+        ["xpath=//label[contains(.,'male')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0322b548-d49f-466a-b673-a1f8f0ad423b",
+      "comment": "",
+      "command": "click",
+      "target": "id=cheightmeter",
+      "targets": [
+        ["id=cheightmeter", "id"],
+        ["name=cheightmeter", "name"],
+        ["css=#cheightmeter", "css:finder"],
+        ["xpath=//input[@id='cheightmeter']", "xpath:attributes"],
+        ["xpath=//table[@id='metricheightweight']/tbody/tr/td[2]/input", "xpath:idRelative"],
+        ["xpath=//table[3]/tbody/tr/td[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a8fdf504-1e5b-41ee-8e62-aefb8e795860",
+      "comment": "",
+      "command": "type",
+      "target": "id=cheightmeter",
+      "targets": [],
+      "value": "170"
+    }, {
+      "id": "eac554ff-dc56-4a09-924b-a26ab8b21c54",
+      "comment": "",
+      "command": "click",
+      "target": "id=ckg",
+      "targets": [
+        ["id=ckg", "id"],
+        ["name=ckg", "name"],
+        ["css=#ckg", "css:finder"],
+        ["xpath=//input[@id='ckg']", "xpath:attributes"],
+        ["xpath=//tr[@id='metricweight']/td[2]/input", "xpath:idRelative"],
+        ["xpath=//table[3]/tbody/tr[2]/td[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "081a3e6d-a762-4b85-91db-9a67ef6c3ce0",
+      "comment": "",
+      "command": "type",
+      "target": "id=ckg",
+      "targets": [],
+      "value": "70"
+    }, {
+      "id": "69c87cbc-0f2c-4793-b0c4-f6f591117dbb",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=+ Settings",
+      "targets": [
+        ["linkText=- Settings", "linkText"],
+        ["css=b > a", "css:finder"],
+        ["xpath=//a[contains(text(),'- Settings')]", "xpath:link"],
+        ["xpath=//a[@onclick='return cshmoreoption(0);']", "xpath:attributes"],
+        ["xpath=//div[@id='ccsettingtitle']/b/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[4]", "xpath:href"],
+        ["xpath=//b/a", "xpath:position"],
+        ["xpath=//a[contains(.,'- Settings')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "befccf28-7b4c-4ba7-8782-ae3287d38bc2",
+      "comment": "",
+      "command": "click",
+      "target": "css=div > .cbcontainer:nth-child(2)",
+      "targets": [
+        ["css=div > .cbcontainer:nth-child(2)", "css:finder"],
+        ["xpath=//div[@id='ccsettingcontent']/div[2]/label[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/label[2]", "xpath:position"],
+        ["xpath=//label[contains(.,'Kilojoules')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "423b6737-7a85-4014-82c4-7b7a418827db",
+      "comment": "",
+      "command": "click",
+      "target": "name=x",
+      "targets": [
+        ["name=x", "name"],
+        ["css=tr:nth-child(2) > td:nth-child(1) > input:nth-child(1)", "css:finder"],
+        ["xpath=//input[@name='x']", "xpath:attributes"],
+        ["xpath=//div[@id='content']/div[2]/div[2]/form/table[4]/tbody/tr[2]/td/input", "xpath:idRelative"],
+        ["xpath=//table[4]/tbody/tr[2]/td/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fb2618a8-bd27-4abb-b4ff-02e13a6a8527",
+      "comment": "",
+      "command": "storeText",
+      "target": "css=font > b",
+      "targets": [
+        ["css=font > b", "css:finder"],
+        ["xpath=//div[@id='content']/div[3]/div/font/b", "xpath:idRelative"],
+        ["xpath=//font/b", "xpath:position"],
+        ["xpath=//b[contains(.,'7,023')]", "xpath:innerText"]
+      ],
+      "value": "var1"
+    }, {
+      "id": "fca0bbf3-872c-44f6-b0e0-6c0642b62d9d",
+      "comment": "",
+      "command": "echo",
+      "target": "${var1}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d83712d2-3428-4695-99aa-4b192d4e5599",
+      "comment": "",
+      "command": "echo",
+      "target": "The_test_string-> 01281727121",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "2cb26d71-84e9-4f5e-96b0-4b51113d2cfb",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["a509a51d-0e25-42f9-80f1-37b49c6c9c49"]
+  }],
+  "urls": ["https://www.selenium.dev/", "https://www.calculator.net/bmr-calculator.html", "https://www.calculator.net/bmr-calculator.html?ctype=metric&cage=25&csex=m&cheightfeet=5&cheightinch=10&cpound=160&cheightmeter=180&ckg=60&cmop=1&coutunit=c&cformula=m&cfatpct=20&x=Calculate", "https://www.calculator.net/", "https://h1p-pc:8834/#", "https://h1p-pc:8834/#/", "https://id.cisco.com/"],
+  "plugins": []
+}

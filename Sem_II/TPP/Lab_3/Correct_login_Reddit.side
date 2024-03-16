@@ -1,0 +1,212 @@
+{
+  "id": "1033f786-59d7-4492-8e09-45c33744724a",
+  "version": "2.0",
+  "name": "reddit",
+  "url": "https://www.reddit.com",
+  "tests": [{
+    "id": "3aa39227-d028-461b-bd60-d14e8dcb6d4f",
+    "name": "1",
+    "commands": [{
+      "id": "95cae561-d698-49a7-b6bf-79c076d27862",
+      "comment": "",
+      "command": "open",
+      "target": "/?rdt=46850",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f75e228e-b10d-41a7-84b0-84267b626c35",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "796x816",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "df077bb3-0031-40ca-8aaf-00a6adecf41d",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=#login-button > .flex > .flex",
+      "targets": [
+        ["css=#login-button > .flex > .flex", "css:finder"],
+        ["xpath=//a[@id='login-button']/span/span", "xpath:idRelative"],
+        ["xpath=//faceplate-tooltip/a/span/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8ba8ba74-ea6e-4a24-99ca-8b66fa19c2ae",
+      "comment": "",
+      "command": "click",
+      "target": "css=#login-button > .flex > .flex",
+      "targets": [
+        ["css=#login-button > .flex > .flex", "css:finder"],
+        ["xpath=//a[@id='login-button']/span/span", "xpath:idRelative"],
+        ["xpath=//faceplate-tooltip/a/span/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fe8bb3f6-5ed9-4994-855d-388153c72cbc",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=#login-button > .flex > .flex",
+      "targets": [
+        ["css=#login-button > .flex > .flex", "css:finder"],
+        ["xpath=//a[@id='login-button']/span/span", "xpath:idRelative"],
+        ["xpath=//faceplate-tooltip/a/span/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7b49609b-fc2a-4582-abcc-28827ffbc08e",
+      "comment": "",
+      "command": "click",
+      "target": "id=login-username",
+      "targets": [
+        ["id=login-username", "id"],
+        ["name=username", "name"],
+        ["css=#login-username", "css:finder"],
+        ["xpath=//input[@id='login-username']", "xpath:attributes"],
+        ["xpath=//span[@id='login-username-container']/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "977e6c8c-00b7-4f94-a53b-66aba2aab341",
+      "comment": "",
+      "command": "type",
+      "target": "id=login-username",
+      "targets": [
+        ["id=login-username", "id"],
+        ["name=username", "name"],
+        ["css=#login-username", "css:finder"],
+        ["xpath=//input[@id='login-username']", "xpath:attributes"],
+        ["xpath=//span[@id='login-username-container']/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Guilty-Art5197"
+    }, {
+      "id": "389d74df-38f8-4f0e-b91c-647e7464e1b0",
+      "comment": "",
+      "command": "click",
+      "target": "id=login-password",
+      "targets": [
+        ["id=login-password", "id"],
+        ["name=password", "name"],
+        ["css=#login-password", "css:finder"],
+        ["xpath=//input[@id='login-password']", "xpath:attributes"],
+        ["xpath=//span[@id='login-password-container']/input", "xpath:idRelative"],
+        ["xpath=//span[5]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5d98a62d-8be4-4cf7-9656-ff46a684501f",
+      "comment": "",
+      "command": "type",
+      "target": "id=login-password",
+      "targets": [],
+      "value": "This_is_secret_pass"
+    }, {
+      "id": "a924fd46-8eaf-44b1-b6af-f401377d6817",
+      "comment": "",
+      "command": "click",
+      "target": "id=login-password",
+      "targets": [
+        ["id=login-password", "id"],
+        ["name=password", "name"],
+        ["css=#login-password", "css:finder"],
+        ["xpath=//input[@id='login-password']", "xpath:attributes"],
+        ["xpath=//span[@id='login-password-container']/input", "xpath:idRelative"],
+        ["xpath=//span[5]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "47294226-f699-4541-84a0-6ce39ae2c81b",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "id=login-password",
+      "targets": [],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "ce73bc6b-d001-4646-a9d4-975232d9a1df",
+      "comment": "",
+      "command": "click",
+      "target": "css=.theme-beta:nth-child(9)",
+      "targets": [
+        ["css=.theme-beta:nth-child(9)", "css:finder"],
+        ["xpath=//shreddit-overlay-display", "xpath:position"],
+        ["xpath=//shreddit-overlay-display[contains(.,' Sign in with Apple')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "871dc215-2807-472c-a434-10de34264a51",
+      "comment": "",
+      "command": "click",
+      "target": "css=.theme-beta:nth-child(9)",
+      "targets": [
+        ["css=.theme-beta:nth-child(9)", "css:finder"],
+        ["xpath=//shreddit-overlay-display", "xpath:position"],
+        ["xpath=//shreddit-overlay-display[contains(.,' Sign in with Apple')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "d5942a29-18f1-4886-8462-c189ddebc2d5",
+    "name": "2",
+    "commands": [{
+      "id": "42f4b54c-f9e3-4824-a30c-2a8b3529f2a1",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c9303055-23c9-46e0-9f01-78bdec87a4c6",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.reddit.com",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0867cbf8-1db8-4c8b-a332-a60e6842c1b3",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.bg-\\[image\\3Avar\\(--color-avatar-gradient\\)\\]",
+      "targets": [
+        ["css=.bg-\\[image\\3Avar\\(--color-avatar-gradient\\)\\]", "css:finder"],
+        ["xpath=//button[@id='expand-user-drawer-button']/span/span/faceplate-partial/div", "xpath:idRelative"],
+        ["xpath=//span/faceplate-partial/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bdc834f3-e6b4-45a3-945c-5c1feeacf537",
+      "comment": "",
+      "command": "click",
+      "target": "css=.flex > .inline-flex .max-w-full",
+      "targets": [
+        ["css=.flex > .inline-flex .max-w-full", "css:finder"],
+        ["xpath=//img[@alt='User Avatar']", "xpath:img"],
+        ["xpath=//button[@id='expand-user-drawer-button']/span/span/span/span/img", "xpath:idRelative"],
+        ["xpath=//img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8bff4c70-ef38-4c59-996e-2bf93cdb5cde",
+      "comment": "",
+      "command": "click",
+      "target": "css=#logout-list-item .text-14",
+      "targets": [
+        ["css=#logout-list-item .text-14", "css:finder"],
+        ["xpath=//li[@id='logout-list-item']/div/span/span[2]/span", "xpath:idRelative"],
+        ["xpath=//faceplate-tracker[4]/li/div/span/span[2]/span", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "57d7c89c-8dc7-4675-90af-cbdf49e8ecf1",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": ["https://www.reddit.com/"],
+  "plugins": []
+}
