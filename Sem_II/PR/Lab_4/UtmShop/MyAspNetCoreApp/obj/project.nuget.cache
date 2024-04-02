@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "PnyB73oT8jRzxtkA8mbsLPwQyPSeyewdvYNKoJ3/Vi0zMaxhuTl9bOp3gnaFUqNBsCGGGGwKeigfAGpXm1jJvg==",
+  "success": true,
+  "projectFilePath": "/home/h1p/UTM_2023-2024/Sem_II/PR/Lab_4/UtmShop/MyAspNetCoreApp/MyAspNetCoreApp.csproj",
+  "expectedPackageFiles": [
+    "/home/h1p/.nuget/packages/microsoft.netcore.app.ref/6.0.8/microsoft.netcore.app.ref.6.0.8.nupkg.sha512",
+    "/home/h1p/.nuget/packages/microsoft.aspnetcore.app.ref/6.0.8/microsoft.aspnetcore.app.ref.6.0.8.nupkg.sha512",
+    "/home/h1p/.nuget/packages/microsoft.netcore.app.host.linux-x64/6.0.8/microsoft.netcore.app.host.linux-x64.6.0.8.nupkg.sha512"
+  ],
+  "logs": []
+}

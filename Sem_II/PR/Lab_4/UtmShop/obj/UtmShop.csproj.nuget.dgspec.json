@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/h1p/UTM/Sem_II/PR/Lab_4/UtmShop/UtmShop.csproj": {}
+    "/home/h1p/UTM_2023-2024/Sem_II/PR/Lab_4/UtmShop/UtmShop.csproj": {}
   },
   "projects": {
-    "/home/h1p/UTM/Sem_II/PR/Lab_4/UtmShop/UtmShop.csproj": {
+    "/home/h1p/UTM_2023-2024/Sem_II/PR/Lab_4/UtmShop/UtmShop.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/h1p/UTM/Sem_II/PR/Lab_4/UtmShop/UtmShop.csproj",
+        "projectUniqueName": "/home/h1p/UTM_2023-2024/Sem_II/PR/Lab_4/UtmShop/UtmShop.csproj",
         "projectName": "UtmShop",
-        "projectPath": "/home/h1p/UTM/Sem_II/PR/Lab_4/UtmShop/UtmShop.csproj",
+        "projectPath": "/home/h1p/UTM_2023-2024/Sem_II/PR/Lab_4/UtmShop/UtmShop.csproj",
         "packagesPath": "/home/h1p/.nuget/packages/",
-        "outputPath": "/home/h1p/UTM/Sem_II/PR/Lab_4/UtmShop/obj/",
+        "outputPath": "/home/h1p/UTM_2023-2024/Sem_II/PR/Lab_4/UtmShop/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/h1p/.nuget/NuGet/NuGet.Config"

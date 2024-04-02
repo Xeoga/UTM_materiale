@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "BoDylhzutOa7lbnSpYPMV04EC2vGfEMkRD5w6Umui5YC0+vQ81X/L+nSrt28fKBOntatGdKL69r3mfZNArsFKA==",
+  "dgSpecHash": "Fn2mvwRf7msh3iA5ynSPmCZuZCeLLqWLhYP+XgnVOuB9LPgtjqIakODi7vPb95doS/51ZOIMDUWsIF/SIJ0oCg==",
   "success": true,
-  "projectFilePath": "/home/h1p/UTM/Sem_II/PR/Lab_4/UtmShop/UtmShop.csproj",
+  "projectFilePath": "/home/h1p/UTM_2023-2024/Sem_II/PR/Lab_4/UtmShop/UtmShop.csproj",
   "expectedPackageFiles": [
     "/home/h1p/.nuget/packages/automapper/11.0.1/automapper.11.0.1.nupkg.sha512",
     "/home/h1p/.nuget/packages/automapper.extensions.microsoft.dependencyinjection/11.0.0/automapper.extensions.microsoft.dependencyinjection.11.0.0.nupkg.sha512",

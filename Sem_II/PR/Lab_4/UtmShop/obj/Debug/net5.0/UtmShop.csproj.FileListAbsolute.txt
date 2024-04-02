@@ -1,0 +1,7 @@
+/home/h1p/UTM_2023-2024/Sem_II/PR/Lab_4/UtmShop/obj/Debug/net5.0/UtmShop.csproj.AssemblyReference.cache
+/home/h1p/UTM_2023-2024/Sem_II/PR/Lab_4/UtmShop/obj/Debug/net5.0/UtmShop.GeneratedMSBuildEditorConfig.editorconfig
+/home/h1p/UTM_2023-2024/Sem_II/PR/Lab_4/UtmShop/obj/Debug/net5.0/UtmShop.AssemblyInfoInputs.cache
+/home/h1p/UTM_2023-2024/Sem_II/PR/Lab_4/UtmShop/obj/Debug/net5.0/UtmShop.AssemblyInfo.cs
+/home/h1p/UTM_2023-2024/Sem_II/PR/Lab_4/UtmShop/obj/Debug/net5.0/UtmShop.csproj.CoreCompileInputs.cache
+/home/h1p/UTM_2023-2024/Sem_II/PR/Lab_4/UtmShop/obj/Debug/net5.0/UtmShop.MvcApplicationPartsAssemblyInfo.cs
+/home/h1p/UTM_2023-2024/Sem_II/PR/Lab_4/UtmShop/obj/Debug/net5.0/UtmShop.MvcApplicationPartsAssemblyInfo.cache
