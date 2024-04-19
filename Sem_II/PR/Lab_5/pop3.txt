@@ -1,0 +1,142 @@
+pop3
+
+Sender: "The Fastmail Team" <support@fastmail.com>
+Subject: Welcome! Get set up in 3 steps.
+Message:
+
+Thank you for trying Fastmail! We bring you the best email features, without asking you to give up your privacy.
+
+**Fastmail is one place to work with all your email addresses. Make new custom email addresses too, at no additional charge.**
+
+Making the switch is easier than you think.
+
+**Step 1:**  
+[Connect your email address](https://app.fastmail.com/settings/migration/import). It takes 3 minutes or less with our migration tool. Start sending mail from your old address, and bring the search history you want to Fastmail.
+
+<div style="text-align: center; width: 100%; margin: 16px 0;"><img style="max-height: 500px; max-width: 100%;" alt="Connect your email address" src="https://app.fastmail.com/static/images/email/welcome-step-1.gif" /></div>
+
+**Step 2:**  
+[Download Fastmail to your phone or tablet](https://app.fastmail.com/settings/migration/apps). Breeze through your day with our quick mobile features.
+
+<div style="text-align: center; width: 50%; margin: 16px auto;"><img style="max-height: 400px; max-width: 100%;" alt="Download the Fastmail app on your device" src="https://app.fastmail.com/static/images/email/welcome-step-2.gif" /></div>
+
+**Step 3:**  
+[Visit your settings to make Fastmail yours](https://app.fastmail.com/settings/addresses). Make custom email addresses, set up your calendars, and personalize your color scheme. Get organized with your choice of labels or folders and mail sorting rules.
+
+<div style="text-align: center; width: 100%; margin: 16px 0;"><img style="max-height: 500px; max-width: 100%;" alt="Visit settings to make Fastmail yours" src="https://app.fastmail.com/static/images/email/welcome-step-3.gif" /></div>
+
+Happy emailing,  
+The Fastmail Team
+
+<p style="font-size: 0.8em">90% of our customers enjoy our newsletters, which highlight new features and are sent 4-6 times per year. You’re on the list, but to opt-out, turn off newsletters <a href="https://app.fastmail.com/settings/security/general">here</a>.</p>
+
+<p style="font-size: 0.8em">Questions? Our <a href="https://www.fastmail.help/hc/en-us">support team</a> is always here to help.  
+Stay up-to-date by following us on <a href="https://fastmail.com/blog">our blog</a>, <a href="https://twitter.com/fastmail">Twitter</a>, <a href="https://mastodon.social/@fastmail/">Mastodon</a> and <a href="https://www.fastmail.com/digitalcitizen/">our podcast</a>.</p>
+
+
+Attachments: []
+-----------
+Sender: "The Fastmail Team" <support@fastmail.com>
+Subject: How to keep your email private
+Message:
+
+Protect yourself from tracking, data leaks, and spammers by using
+alternative addresses that keep your main address private.
+
+Additional email addresses can help you stay anonymous, present a
+polished professional identity, or promote your brand.
+
+Here’s how to do it:
+
+1. Add extra [email addresses](https://app.fastmail.com/settings/addresses). Fastmail lets you have 
+   hundreds of email addresses. Use them for better privacy, professionalism, 
+   and organization.
+2. Use [Masked Emails](https://app.fastmail.com/settings/masked) for
+   your logins. Generate a random email address so websites don’t know who
+   you are. Now you don’t have to share any address that identifies you
+   with online stores or brands.
+3. Make a personalized address with [your own domain](https://app.fastmail.com/settings/domains)
+   for your family, business, brand or project. Learn more about getting a
+   domain through Fastmail [here](https://www.fastmail.help/hc/en-us/articles/5948732264335-Registering-a-domain-through-Fastmail).
+
+Hundreds of addresses are included at no additional charge.
+
+Happy emailing,  
+The Fastmail Team
+
+Questions? Our [support team](https://support.fastmail.com/) is
+always here to help.  
+Stay up-to-date by following us on [our blog](https://fastmail.com/blog),
+[Twitter](https://twitter.com/Fastmail), [Mastodon](https://mastodon.social/@fastmail) and
+[podcast](https://www.fastmail.com/digitalcitizen/).
+
+
+Attachments: []
+-----------
+Sender: "The Fastmail Team" <support@fastmail.com>
+Subject: Need help setting up your email app?
+Message:
+
+Dear Chirita Stanislav,
+
+We're writing to you about your email user stanislavchirita991@fastmail.com with Fastmail.
+
+A third-party email app just tried to log in to your Fastmail account stanislavchirita991@fastmail.com using your regular password:
+
+* Location: 109.185.158.201 (host-static-109-185-158-201.moldtelecom.md) Chisinau, Chișinău Municipality, Moldova
+* Service: SMTP
+* Time: Apr 18, 2024 12:44 pm (Europe/Chisinau) *2024-04-18T09:44:11Z*
+
+The above login failed because your regular password doesn’t work with third-party apps. This keeps your account secure. Instead, you can make a unique [app password](https://www.fastmail.help/hc/en-us/articles/360058752854) to use your account with the app securely.
+
+Your regular password can be used to create new users, change your settings, or cancel your account. It’s important to protect this, which is why it can only be used to log in to [fastmail.com](https://www.fastmail.com/) and the [Fastmail app](https://www.fastmail.help/hc/en-us/articles/360060590873).
+
+**How to set up your app**
+
+We offer setup guides for most popular e-mail clients, such as Outlook and Mac Mail. These will take you through making an app password and using it for client login, step-by-step. Go to [**Settings → Migration**](https://app.fastmail.com/settings/migration/apps) to get started with a guide.
+
+You can also create an app password by following the instructions below:
+
+1. Log in to the Fastmail web interface and go to the [**Settings → Privacy & Security**](https://app.fastmail.com/settings/security/general) screen. 
+2. Click on the **Integrations** tab at the top of the screen.
+3. In the **App Passwords** section, click **New App Password**.
+4. A **Verify it's you** box will appear. Enter your password and click **Continue**.
+5. Select a name to identify this app password. Some options are provided; if you prefer, you can enter your own descriptive name by selecting **Custom**.
+6. Choose what data your app has access to. The default setting **Mail, Contacts & Calendars** gives access to your mail (IMAP/POP/SMTP), contacts (CardDAV), and calendars (CalDAV). For any app that needs access to Fastmail Files storage, please select **Files** (WebDAV).
+7. Click **Generate Password**.
+
+**If you weren't trying to set up an app**
+
+If this wasn't you, or you're not sure if it was you, it may be that your password has been compromised. We strongly advise that you change your password immediately by going to [Settings → Privacy & Security](https://app.fastmail.com/settings/security/general) and clicking **Change Password**. The most common ways your password can be compromised are [password reuse](https://www.fastmail.help/hc/en-us/articles/360060590613) and [phishing](https://www.fastmail.help/hc/en-us/articles/360060590633). 
+
+Thank you for helping us improve the security of your email.
+
+Cheers,
+
+The Fastmail Team
+
+
+--
+Fastmail Team
+support@fastmail.com
+
+Attachments: []
+-----------
+Sender: stanislavchirita991@fastmail.com
+Subject: prez
+Message:
+prezentare attachment
+Attachments: ['/home/h1p/UTM_2023-2024/Sem_II/PR/Lab_5/README.txt']
+-----------
+Sender: stanislavchirita991@fastmail.com
+Subject: prez
+Message:
+prezentare attachment
+Attachments: ['/home/h1p/UTM_2023-2024/Sem_II/PR/Lab_5/README.txt']
+-----------
+Sender: stanislavchirita991@fastmail.com
+Subject: Tema Email
+Message:
+Atasamentul
+Attachments: ['/home/h1p/UTM_2023-2024/Sem_II/PR/Lab_5/imap.txt']
+-----------
