@@ -1,0 +1,56 @@
+Tue May 21 10:14:38 2024: Hive (C:\Users\Adminstrator\Desktop\HIVE_file\config\SYSTEM) is not dirty.
+
+Tue May 21 10:14:38 2024: Log opened.
+Tue May 21 10:14:38 2024: File: C:\Users\Adminstrator\Desktop\HIVE_file\config\SYSTEM
+Tue May 21 10:14:38 2024: Environment set up.
+Tue May 21 10:14:38 2024: Launching ScanButton v.20131210
+Tue May 21 10:14:38 2024: Launching appcertdlls v.20200427
+Tue May 21 10:14:38 2024: Launching appcompatcache v.20220921
+Tue May 21 10:14:38 2024: Launching backuprestore v.20200517
+Tue May 21 10:14:38 2024: Launching bam v.20200427
+Tue May 21 10:14:38 2024: Launching bthenum v.20200515
+Tue May 21 10:14:38 2024: Launching bthport v.20200517
+Tue May 21 10:14:38 2024: Launching codepage v.20200519
+Tue May 21 10:14:38 2024: Launching compname v.20090727
+Tue May 21 10:14:38 2024: Launching cred v.20200427
+Tue May 21 10:14:38 2024: Launching dafupnp v.20200525
+Tue May 21 10:14:38 2024: Launching devclass v.20200525
+Tue May 21 10:14:38 2024: Launching disableeventlog v.20230710
+Tue May 21 10:14:38 2024: Launching disablelastaccess v.20200517
+Tue May 21 10:14:38 2024: Launching disableremotescm v.20200513
+Tue May 21 10:14:38 2024: Launching environment v.20200512
+Tue May 21 10:14:38 2024: Launching imagedev v.20140104
+Tue May 21 10:14:38 2024: Launching ips v.20200518
+Tue May 21 10:14:38 2024: Launching lsa v.20200517
+Tue May 21 10:14:38 2024: Launching macaddr v.20200515
+Tue May 21 10:14:38 2024: Launching mountdev v.20200517
+Tue May 21 10:14:38 2024: Launching mountdev2 v.20200517
+Tue May 21 10:14:38 2024: Launching netlogon v.20200515
+Tue May 21 10:14:38 2024: Launching networksetup2 v.20191004
+Tue May 21 10:14:38 2024: Launching nic2 v.20200525
+Tue May 21 10:14:38 2024: Launching ntds v.20200427
+Tue May 21 10:14:38 2024: Launching pagefile v.20140505
+Tue May 21 10:14:38 2024: Launching pending v.20130711
+Tue May 21 10:14:38 2024: Launching PortProxy v.20210622
+Tue May 21 10:14:38 2024: Launching prefetch v.20200515
+Tue May 21 10:14:38 2024: Launching printmon v.20200427
+Tue May 21 10:14:38 2024: Launching processor_architecture v.20140505
+Tue May 21 10:14:38 2024: Launching profiler v.20200525
+Tue May 21 10:14:38 2024: Launching rdpport v.20200526
+Tue May 21 10:14:38 2024: Launching remoteaccess v.20200517
+Tue May 21 10:14:38 2024: Launching routes v.20200526
+Tue May 21 10:14:38 2024: Launching securityproviders v.20200526
+Tue May 21 10:14:38 2024: Launching services v.20191024
+Tue May 21 10:14:40 2024: Launching shares v.20200525
+Tue May 21 10:14:40 2024: Launching shimcache v.20220921
+Tue May 21 10:14:40 2024: Launching shutdown v.20200518
+Tue May 21 10:14:40 2024: Launching source_os v.20200511
+Tue May 21 10:14:40 2024: Launching svc v.20200525
+Tue May 21 10:14:41 2024: Launching svcdll v.20200525
+Tue May 21 10:14:41 2024: Launching termcert v.20200526
+Tue May 21 10:14:41 2024: Launching termserv v.20200506
+Tue May 21 10:14:41 2024: Launching timezone v.20200518
+Tue May 21 10:14:41 2024: Launching usb v.20200515
+Tue May 21 10:14:41 2024: Launching usbdevices v.20200525
+Tue May 21 10:14:41 2024: Launching usbstor v.20200515
+Tue May 21 10:14:41 2024: Launching wpdbusenum v.20200515

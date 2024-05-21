@@ -1,0 +1,16 @@
+# Makefile for test.dll project
+
+all: SensApi.dll
+
+SensApi.dll: SensApi.o
+	dllwrap SensApi.o -o SensApi.dll
+
+SensApi.o: dll_hijacking.cpp
+	g++ -c dll_hijacking.cpp -o SensApi.o
+	
+clean:
+	del SensApi.o
+	
+# g++ -c SciLexer.cpp -o SciLexer.o
+# dllwrap SciLexer.o -o SciLexer.dll
+# del  SciLexer.o
