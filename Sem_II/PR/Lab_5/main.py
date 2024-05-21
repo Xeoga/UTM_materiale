@@ -18,7 +18,7 @@ POP3_SERVER = 'pop.fastmail.com'
 POP3_PORT = 995
 
 FASTMAIL_USERNAME = 'stanislavchirita991@fastmail.com'
-FASTMAIL_PASSWORD = 'fn4chi9P'
+FASTMAIL_PASSWORD = 'dk5l lqp2 h693 rnmy'  
 
 def send_email(subject, message, to_email, attachment=None, reply_to=None):
     # Create an MIMEMultipart object to build the email
@@ -133,7 +133,7 @@ def save_attachment(part, filepath):
         file.write(payload)
 
 # Sending email
-send_email("prez", "prezentare attachment", "stanislavchirita991@fastmail.com",attachment="C:\\Users\\Adminstrator\\Desktop\\UTM_2023-2024\\Sem_II\\PR\\Lab_5\\main.py")
+send_email("Tema Email", "Atasamentul", "stanislavchirita991@fastmail.com",attachment="imap.txt")
 
 # Receiving emails using IMAP
 received_messages_imap = receive_email_imap()
