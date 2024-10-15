@@ -1,0 +1,5 @@
+/**
+ * Library for controlling an LED using the dd_led module.
+ *
+ * This library provides functions to setup, turn on, turn off, toggle, check the status, and read the state of an LED connected to pin 13.
+ */
