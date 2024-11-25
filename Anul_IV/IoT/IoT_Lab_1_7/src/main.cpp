@@ -34,6 +34,12 @@ void loop()
 #if APP_NAME == APP_LAB_2
   app_lab_1_1_loop();
 #endif
+#if APP_NAME == APP_LAB_1
+  app_lab_0_loop();
+#endif
 
+#if APP_NAME == APP_LAB_2_1
+  app_lab_2_1_loop();
+#endif
 
 }
