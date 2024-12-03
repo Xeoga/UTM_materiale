@@ -33,7 +33,7 @@ def proxy_get():
     try:
         response = requests.get(f"{dw_server}/employees", params={"id": employee_id})
         if response.status_code == 200:
-            redis_client.setex(cache_key, 300, response.text)  # Stochează în cache pentru 5 minute 1 oră: 3600 1 zi: 86400 1 săptămână: 604800 1 lună: 2592000
+            redis_client.setex(cache_key, 300, response.text)  # Stochează în cache pentru 5 minute sau 1 oră: 3600 1 zi: 86400 1 săptămână: 604800 1 lună: 2592000
             return jsonify({"source": "dw", "data": response.json()})
         else:
             return response.text, response.status_code
